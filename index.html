@@ -1,0 +1,962 @@
+<!DOCTYPE html>
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta charset="UTF-8">
+	<meta name="description" content="The Day I Hacked My Dad's LAM Project" />
+	<meta name="keywords" content="Literature, Arts, Media" />
+	<meta name="location" content="Felgueiras, Porto, Vila do Conde, Viseu, Coimbra, Lisboa" />
+	<meta name="language" content="English" />
+	<meta name="copyright" content="Pedro Brochado (c) 2021" />
+	<meta name="author" content="Maria Sancho - www.mariasancho.org" />
+	<meta name="robots" content="ALL" />
+	<link rel="shortcut icon" type="image/gif" href="img/favicon.gif" />
+	<link rel="icon" type="image/gif" href="img/favicon.gif" />
+	<title>The Day I Hacked My Dad's LAM Project</title>
+	<!-- JAVASCRIPT -->
+	<script type="text/javascript" src="js/jquery-1.4.2.min.js"></script>
+	<script type="text/javascript" src="js/jquery.cycle.all.min.js"></script>
+	<script type="text/javascript" src="js/jquery-ui-1.8rc3.custom.min.js"></script>
+	<!-- ACORDEÃO -->
+	<script type="text/javascript">
+	$(function() {
+		// Acordeão
+		$("#accordion").accordion({
+			active: false,
+			autoHeight: false,
+			collapsible: true
+		});
+	});
+	</script>
+	<!-- SCROLLER DA IMAGEM JAVASCRIPT -->
+	<script type="text/javascript">
+	$(document).ready(function() {
+		$('#s4').after('<div id="nav" />').cycle({
+			fx: 'fade',
+			speed: 'slow',
+			timeout: 0,
+			pager: '#nav',
+			pagerEvent: 'mouseover',
+		});
+	});
+	</script>
+	<script type="text/javascript">
+	$(document).ready(function() {
+		$('#s41').after('<div id="nav1" />').cycle({
+			fx: 'fade',
+			speed: 'slow',
+			timeout: 0,
+			pager: '#nav1',
+			pagerEvent: 'mouseover',
+		});
+	});
+	</script>
+	<script type="text/javascript">
+	$(document).ready(function() {
+		$('#s42').cycle({
+			fx: 'fade',
+			speed: 'slow',
+			timeout: 0,
+		});
+	});
+	</script>
+	<script type="text/javascript">
+	$(document).ready(function() {
+		$('#s43').after('<div id="nav3" />').cycle({
+			fx: 'fade',
+			speed: 'slow',
+			timeout: 0,
+			pager: '#nav3',
+			pagerEvent: 'mouseover',
+		});
+	});
+	</script>
+	<script type="text/javascript">
+	$(document).ready(function() {
+		$('#s44').after('<div id="nav4" />').cycle({
+			fx: 'fade',
+			speed: 'slow',
+			timeout: 0,
+			pager: '#nav4',
+			pagerEvent: 'mouseover',
+		});
+	});
+	</script>
+	<script type="text/javascript">
+	$(document).ready(function() {
+		$('#s45').after('<div id="nav5" />').cycle({
+			fx: 'fade',
+			speed: 'slow',
+			timeout: 0,
+			pager: '#nav5',
+			pagerEvent: 'mouseover',
+		});
+	});
+	</script>
+	<script type="text/javascript">
+	$(document).ready(function() {
+		$('#s46').after('<div id="nav6" />').cycle({
+			fx: 'fade',
+			speed: 'slow',
+			timeout: 0,
+			pager: '#nav6',
+			pagerEvent: 'mouseover',
+		});
+	});
+	</script>
+	<script type="text/javascript">
+	$(document).ready(function() {
+		$('#s47').after('<div id="nav7" />').cycle({
+			fx: 'fade',
+			speed: 'slow',
+			timeout: 0,
+			pager: '#nav7',
+			pagerEvent: 'mouseover',
+		});
+	});
+	</script>
+	<script type="text/javascript">
+	$(document).ready(function() {
+		$('#s48').after('<div id="nav8" />').cycle({
+			fx: 'fade',
+			speed: 'slow',
+			timeout: 0,
+			pager: '#nav8',
+			pagerEvent: 'mouseover',
+		});
+	});
+	</script>
+	<script type="text/javascript">
+	$(document).ready(function() {
+		$('#s49').after('<div id="nav9" />').cycle({
+			fx: 'fade',
+			speed: 'slow',
+			timeout: 0,
+			pager: '#nav9',
+			pagerEvent: 'mouseover',
+		});
+	});
+	</script>
+	<script type="text/javascript">
+	$(document).ready(function() {
+		$('#s410').after('<div id="nav10" />').cycle({
+			fx: 'fade',
+			speed: 'slow',
+			timeout: 0,
+			pager: '#nav10',
+			pagerEvent: 'mouseover',
+		});
+	});
+	</script>
+	<script type="text/javascript">
+	$(document).ready(function() {
+		$('#s411').after('<div id="nav11" />').cycle({
+			fx: 'fade',
+			speed: 'slow',
+			timeout: 0,
+			pager: '#nav11',
+			pagerEvent: 'mouseover',
+		});
+	});
+	</script>
+	<script type="text/javascript">
+	$(document).ready(function() {
+		$('#s412').after('<div id="nav12" />').cycle({
+			fx: 'fade',
+			speed: 'slow',
+			timeout: 0,
+			pager: '#nav12',
+			pagerEvent: 'mouseover',
+		});
+	});
+	</script>
+	<script type="text/javascript">
+	$(document).ready(function() {
+		$('#s413').cycle({
+			fx: 'fade',
+			speed: 'slow',
+			timeout: 0,
+		});
+	});
+	</script>
+	<!-- CSS -->
+	<link type="text/css" href="css/jquery-ui-1.8rc3.custom.css" rel="stylesheet" />
+	<link rel="stylesheet" type="text/css" href="css/global.css" />
+	<link rel="alternate stylesheet" type="text/css" media="screen" title="red-theme" href="css/red.css" />
+	<link rel="alternate stylesheet" type="text/css" media="screen" title="dark-theme" href="css/dark.css" />
+	<script type="text/javascript" src="js/styleswitch.js"></script>
+</head>
+
+<body>
+	<!-- INÍCIO DO WRAPPER -->
+	<div id="wrapper">
+		<div class="logo">
+			<h1><span>The Day I Hacked My Dad's LAM Project</span></h1> </div>
+		<!-- INÍCIO CONTEÚDO -->
+		<div id="content">
+			<div class="header-top">
+				<div class="line-thick"></div>
+				<h1>The Day I Hacked My Dad's LAM Project</h1>
+				<div class="line-thin"></div>
+				<br> <img src="img/intro.jpg" width="920" height="439" alt="Intro [1]" /> </div>
+			<!-- INÍCIO X -->
+			<div class="project-wrapper">
+				<div id="accordion">
+					<!-- X -->
+					<div class="project">
+						<div class="column-left">
+							<p class="date">1 /</p>
+						</div>
+						<div class="column-right">
+							<p><strong>From the beginning &#128151;</strong></p>
+						</div>
+					</div>
+					<div class="contentBody">
+						<div>
+							<br>
+							<p>Dad started this work with some expectations about it.
+								<br>During it's course he found himself trying to figuring out the best aproach for the theme he was interested in - <u>Cyberpunk & Avatars.</u>
+								<br>It could be expressed on so many levels:
+								<br><strong>a)</strong> A digital archive from what others write and make about this topic, like some sort of distorted datapool of counter-information and resistence and reports about the old and the digital countercultures; <strong>b)</strong> it could be based on the <span>Communication Wars</span> series (2009), which was a moment in time where he was able to be mature enough while technically capable to express his opinions about avatars and the impact of the virtual in his life; and <strong>c)</strong> it could also be this big-curated-artwork which comprised all of the before and where several languages would be explored: video, illustration, graphic design, visual arts, research, and several subjectivities in the methodology.
+								<br>
+								<br>Many references are used to illustrate this post-modernist vision of science fiction from the early 80s (dad was born in 83), which took on a life of it's own. Some might say it is where we are heading in our current culture.
+								<br />
+								<br /><strong>The process and not the result, is OUR project</strong>.
+								<br>
+								<br> <img src="img/cyberpunk_1.jpg" width="920" height="1299" alt="Cyberpunk [1]" /></div>
+						<br> </div>
+					<!-- Y -->
+					<div class="project">
+						<div class="column-left">
+							<p class="date">Fiction Book /</p>
+						</div>
+						<div class="column-right">
+							<p>S / C / H / I / S / M / A / T / R / I / X</p>
+						</div>
+					</div>
+					<div class="contentBody">
+						<div id="s41" class="cycle"><img src="img/cyberpunk_2.jpg" width="920" height="1299" alt="Cyberpunk [2]" /><img src="img/cyberpunk_3.jpg" width="920" height="1299" alt="Cyberpunk [3]" /> <img src="img/cyberpunk_4.jpg" width="920" height="1299" alt="Cyberpunk [4]" /> <img src="img/cyberpunk_5.jpg" width="920" height="1299" alt="Cyberpunk [5]" /> <img src="img/cyberpunk_6.jpg" width="920" height="1299" alt="Cyberpunk [6]" /> <img src="img/cyberpunk_7.jpg" width="920" height="1299" alt="Cyberpunk [7]" /><img src="img/cyberpunk_8.jpg" width="920" height="1299" alt="Cyberpunk [8]" /> </div>
+						<p class="description"><span>Schismatrix</span> is a kaleidoscopeic space saga from Bruce Sterling (1985). There are two major superpowers in the solar system - <span>the Shapers</span>, who use genetic engineering, psychology and conditioning techniques to improve human potential, and <span>the Mechanists</span>, who believe in cybernetics. Mixing design and visual graphics, dad managed to create images based on it's ideologies.</p>
+					</div>
+					<!-- GO -->
+					<div class="project">
+						<div class="column-left">
+							<p class="date">Non-Fiction Books / </p>
+						</div>
+						<div class="column-right">
+							<p><strong>Index</strong></p>
+						</div>
+					</div>
+					<div class="contentBody">
+						<div>
+							<br>
+							<h2>Sociology and Cultural Studies</h2>
+							<br>
+							<p>
+								<ul>
+									<li><a href="https://archive.org/details/BeyondCyberpunkMacintosh" rel="nofollow"><u>Beyond Cyberpunk hypercard stack (1991)</u></a> - Gareth Branwyn</li>
+									<li><s>Borg Like Me (2014) - Gareth Branwyn</s></li>
+									<li><a href="https://archive.org/details/ChaosAndCyberCulture/page/n0" rel="nofollow"><u>Chaos &amp; Cyberculture (1994)</u></a> - Timothy Leary </li>
+									<li><s>Speed Tribes (1994) - Karl Greenfield Taro</s></li>
+								</ul>
+							</p>
+							<br>
+							<h2>Authors</h2>
+							<br>
+							<p>
+								<ul>
+									<li><s>Culture Jamming: Hacking, Slashing and Sniping in the Empire of Signs (1993)- Mark Dery</s></li>
+									<li><a href="https://archive.org/details/flamewarsdiscour00dery" rel="nofollow"><u>Flame Wars: The Discourse of Cyberculture (1993)</u></a> - Mark Dery</li>
+									<li><a href="https://archive.org/details/escapevelocitycy00dery" rel="nofollow"><u>Escape Velocity: Cyberculture at the End of the Century (1996)</u></a> - Mark Dery</li>
+									<li><s>The Pyrotechnic Insanitarium: American Culture on the Brink (1999)- Mark Dery</s></li>
+									<li><s>I Must Not Think Bad Thoughts: Drive-By Essays on American Dread, American Dreams (2012)- Mark Dery</s></li>
+									<li><s>The Mechanical Bride (1951) - Marshall McLuhan</s></li>
+									<li><s>The Gutenberg Galaxy (1962) - Marshall McLuhan</s></li>
+									<li><s>Understanding Media (1964) - Marshall McLuhan</s></li>
+									<li><s>The Medium is the Massage: An Inventory of Effects (1967) - Marshall McLuhan</s></li>
+									<li><s>War and Peace in the Global Village (1968) - Marshall McLuhan</s></li>
+									<li><s>From Cliché to Archetype (1970) - Marshall McLuhan</s></li>
+									<li><s>The Global Village: Transformations in World Life and Media in the 21st Century (1989) - Marshall McLuhan</s></li>
+									<li><s>Present Shock (2004) - Douglas Rushkoff</s></li>
+									<li><s>Program or be Programmed: Ten Commands for a Digital Age (2010) - Douglas Rushkoff</s></li>
+									<li><s>Coercion: Why We Listen to What &quot;They&quot; Say (1998) - Douglas Rushkoff</s></li>
+									<li><s>Playing the Future: What We Can Learn From Digital Kids - Douglas Rushkoff</s></li>
+									<li><s>Media Virus: Hidden Agendas in Popular Culture (1994) - Douglas Rushkoff</s></li>
+									<li><s>Cyberia: Life in the Trenches of Cyberspace (1994) - Douglas Rushkoff</s></li>
+									<li><s>Mondo 2000: A User&#39;s Guide to the New Edge: Cyberpunk, Virtual Reality, Designer Aphrodisiacs, Artificial Life, Techno-Erotic Paganism (1992) - R.U. Sirius</s></li>
+									<li><u><a href="https://archive.org/details/TheRealCyberpunkFakeBook/page/n0" rel="nofollow">The Real Cyberpunk Fakebook ed R.U. Sirius, St. Jude (1995)</u></a> - R.U. Sirius</li>
+									<li><u><a href="https://archive.org/details/howtomutatetakeo00siri" rel="nofollow">How to Mutate &amp; Take Over the World: an Exploded Post-Novel (1997)</u></a> - R.U. Sirius</li>
+									<li><s>21st Century Revolutionary: 1984–1998 (1999) - R. U. Sirius </s></li>
+									<li><u><a href="https://archive.org/details/countercultureth00siri" rel="nofollow">Counterculture Through the Ages: From Abraham to Acid House (2004)</u></a> - R.U. Sirius</li>
+									<li><s>True Mutations (2007) - R.U. Sirius</s></li>
+									<li><a href="https://archive.org/details/FutureShock_143/page/n0" rel="nofollow"><u>Future Shock (1970)</u></a> - Alvin Toffler</li>
+									<li><a href="https://archive.org/details/The_Third_Wave_Alvin_Toffler/page/n0" rel="nofollow"><u>The Third Wave (1980)</u></a> - Alvin Toffler</li>
+									<li><a href="https://archive.org/details/in.ernet.dli.2015.170716/page/n1" rel="nofollow"><u>Powershift (1990)</u></a>- Alvin Toffler</li>
+								</ul>
+							</p>
+							<br>
+							<h2>Literary Criticism</h2>
+							<br>
+							<p>
+								<ul>
+									<li><s>Across Wounded Galaxies - Larry McCaffrey</s></li>
+									<li><s>Storming the Reality Studio - Larry McCaffrey</s></li>
+									<li><s>Beyond Cyberpunk: New Critical Perspectives - Graham J. Murphy & Sherryl Vint</s></li>
+									<li><s>Cyberpunk and Cyberculture: Science Fiction and the Work of William Gibson - Dani Cavallaro</s></li>
+									<li><s>Fiction 2000: Cyberpunk and the Future of Narrative - George Edgar Slusser</s></li>
+									<li><a href="https://archive.org/details/HowWeBecamePosthuman/page/n0" rel="nofollow"><u>How We Became Posthuman: Virtual Bodies in Cybernetics, Literature, and Informatics</u></a> - Katherine N. Hayles</li>
+									<li><u><a href="https://archive.org/details/notesfrompopunde00bels" rel="nofollow">Notes from the Pop Underground</u></a> - Peter Belsito</li>
+									<li><s>The Pocket Essential Cyberpunk - Andrew M. Butler</s></li>
+									<li><s>Razor girls: genre and gender in cyberpunk fiction - Lauraine Leblanc</s></li>
+									<li><a href="https://archive.org/details/isbn_9780822313403/page/n0" rel="nofollow"><u>Terminal Identity: The Virtual Subject in Postmodern Science Fiction</u></a> - Scott Bukatman</li>
+									<li><s>Thinking Robots, an Aware Internet, and Cyberpunk Librarians (1992) - R. Bruce Miller &amp; Milton T. Wolf</s></li>
+									<li><s>The Tomorrow Makers - Grant Fjermedal</s></li>
+									<li><s>True Names: And the Opening of the Cyberspace Frontier - Vernor Vinge</s></li>
+									<li><s>Virtual Geographies: Cyberpunk at the Intersection of the Postmodern and Science Fiction - Sabine Heuser</s></li>
+								</ul>
+							</p>
+							<br>
+							<h2>Cyberspace</h2>
+							<br>
+							<p>
+								<ul>
+									<li><s>Artificial Reality</s> - Myron W Krueger</li>
+									<li><a href="https://archive.org/details/artificialrealit00krue" rel="nofollow"><u>Artificial Reality II</u></a> - Myron W Krueger</li>
+									<li><a href="https://archive.org/details/beingdigital00negr" rel="nofollow"><u>Being Digital</u></a> - Nicolas Negroponte</li>
+									<li><a href="https://archive.org/details/CyberspaceFirstSteps/page/n0" rel="nofollow"><u>Cyberspace: First Steps</u></a> - Michael Benedikt</li>
+									<li><a href="https://archive.org/details/medialabinventin01bran" rel="nofollow"><u>The Media Lab</u></a> - Stuart Brand</li>
+									<li><a href="https://archive.org/details/ThisCyberneticWorld/page/n0" rel="nofollow"><u>This Cybernetic World</u></a> - V. Lawrence Parsegian</li>
+									<li><a href="https://archive.org/details/virtualrealityex00hami" rel="nofollow"><u>Virtual Reality: Adventures in Cyberspace</u></a> - Francis Hamit</li>
+									<li><a href="https://archive.org/details/bub_gb_a2aw_PAa2UAC/page/n0" rel="nofollow"><u>Virtual Worlds</u></a> - Benjamin Woolley </li>
+									<li><s>Information Is an Alienated Experience - Jaron Lanier</s></li>
+									<li><s>You Are Not a Gadget: A Manifesto - Jaron Lanier</s></li>
+									<li><s>Who Owns the Future? - Jaron Lanier</s></li>
+									<li><s>Net Smart: How to Thrive Online - Howard Rheingold</s></li>
+									<li><a href="https://archive.org/details/smartmobsnextsoc00rhei" rel="nofollow">Smart Mobs: The Next Social Revolution</u></a> - Howard Rheingold</li>
+									<li><s>The Heart of the WELL - Howard Rheingold</s></li>
+									<li><a href="https://archive.org/details/virtualcommunity00rhei" rel="nofollow"><u>The Virtual Community: Homesteading on the Electronic Frontier</u></a> - Howard Rheingold</li>
+									<li><s>Virtual Reality - Howard Rheingold</s></li>
+								</ul>
+							</p>
+							<br>
+							<h2>Technology</h2>
+							<br>
+							<p>
+								<ul>
+									<li><s>Engines of Creation - Eric Drexler</s></li>
+									<li><s>New Minds Science - Howard Gardner</s></li>
+									<li><s>Out of the Inner Circle - Bill Landreth</s></li>
+									<li><a href="https://archive.org/details/realitycheckyouv00wien" rel="nofollow"><u>Reality Check</u></a> - David Pescovitz</li>
+									<li><s>In the Beginning Was the Command Line - Neal Stephenson</s></li>
+									<li><s>The Cathedral &amp; the Bazaar - Eric S. Raymond</s></li>
+									<li><u><a href="https://archive.org/details/thejargonfilever03008gut" rel="nofollow">The Jargon File</u> - Various</a>
+									</li>
+									<li><u><a href="https://archive.org/details/soulofnewmachin000kidd" rel="nofollow">The Soul of a New Machine</u></a> - Tracy Kidder</li>
+									<li><s>Superintelligence: Paths, Dangers, Strategies - Nick Bostrum</s></li>
+									<li><s>Chaos - James Gleick</s></li>
+									<li><s>Faster - James Gleick</s></li>
+									<li><s>The Information - James Gleick</s></li>
+									<li><s>What Just Happened - James Gleick</s></li>
+									<li><u><a href="https://archive.org/details/ageofintelligent00kurz" rel="nofollow">The Age of Intelligent Machines</u></a> - Ray Kurzweil</li>
+									<li><u><a href="https://archive.org/details/ageofspiritualma00kurz" rel="nofollow">The Age of Spiritual Machines</u></a> - Ray Kurzweil</li>
+									<li><u><a href="https://archive.org/details/singularityisnea00kurz" rel="nofollow">The Singularity Is Near</u></a> - Ray Kurzweil</li>
+									<li><s>How to Create a Mind: The Secret of Human Thought Revealed - Ray Kurzweil</s></li>
+									<li><s>Artificial Life: The Quest for a New Creation (1992) - Steven Levy</s></li>
+									<li><s>Crypto: How the Code Rebels Beat the Government Saving Privacy in the Digital Age (2001) - Steven Levy</s></li>
+									<li><s>Hackers: Heroes of the Computer Revolution (1984) - Steven Levy</s></li>
+									<li><s>In The Plex: How Google Thinks, Works, and Shapes Our Lives (2011) - Steven Levy</s></li>
+									<li><s>Insanely Great: The Life and Times of Macintosh, the Computer That Changed Everything (1994) - Steven Levy</s></li>
+									<li><s>The Perfect Thing: How the iPod Shuffles Commerce, Culture, and Coolness (2006) - Steven Levy</s></li>
+									<li><u><a href="https://archive.org/details/turingoption00harr" rel="nofollow">The Turing Option</u></a> - Marvin Minsky</li>
+								</ul>
+							</p>
+							<br>
+							<h2>Philosophy</h2>
+							<br>
+							<p>
+								<ul>
+									<li><s>The System of Objects (1968) - Jean Baudrillard</s></li>
+									<li><s>Seduction (1979) - Jean Baudrillard</s></li>
+									<li><s>Simulacra and Simulation (1981) - Jean Baudrillard</s></li>
+									<li><s>Simulations (1983) - Jean Baudrillard</s></li>
+									<li><s>America (1986) - Jean Baudrillard</s></li>
+									<li><s>The Gulf War Did Not Take Place (1991) - Jean Baudrillard</s></li>
+									<li><s>Why Hasn&#39;t Everything Already Disappeared? (2009) - Jean Baudrillard</s></li>
+									<li><s>The Postmodern Scene: Excremental Culture and Hyper-Aesthetics (1987) - Arthur Kroker</s></li>
+									<li><s>The Possessed Individual: Technology and the French Postmodern (1992) - Arthur Kroker</s></li>
+									<li><a href="https://archive.org/details/spasmvirtualreal00krok" rel="nofollow"><u>SPASM: Virtual Reality, Android Music, and Electric Flesh (1993)</u></a> - Arthur Kroker</li>
+									<li><a href="https://archive.org/details/datatrashtheoryo00krok_0" rel="nofollow"><u>Data Trash: Theory of the Virtual Class (1994)</u></a> - Arthur Kroker</li>
+									<li><s>Hacking the Future (1996) - Arthur Kroker</s></li>
+									<li><s>The Will to Technology and the Culture of Nihilism: Heidegger, Nietzsche and Marx (2004) - Arthur Kroker</s></li>
+									<li><s>Body Invaders: Panic Sex in America (1987) - Arthur Kroker</s></li>
+									<li><s>Digital Delirium (1997) - Arthur Kroker</s></li>
+									<li><s>Life in the Wires: The CTheory Reader (2004) - Arthur Kroker</s></li>
+									<li><s>Critical Digital Studies: A Reader (2008) - Arthur Kroker</s></li>
+								</ul>
+							</p>
+							<br> </div>
+					</div>
+					<!-- Z -->
+					<div class="project">
+						<div class="column-left">
+							<p class="date">Film</p>
+						</div>
+						<div class="column-right">
+							<p>Yup, another Index</p>
+						</div>
+					</div>
+					<div class="contentBody">
+						<br>
+						<h2>Blade Runner</h2>
+						<br>
+						<p><strong>Blade Runner</strong> is an adaption of Philip K. Dick&#39;s novel <em>Do Androids Dream of Electric Sheep</em>. It is known for its futuristic noir style.</p>
+						<p><a href="https://en.wikipedia.org/wiki/Blade_Runner" rel="nofollow">Wikipedia</a> - <a href="http://www.imdb.com/title/tt0083658/" rel="nofollow">IMDB</a> - <a href="http://www.rottentomatoes.com/m/blade_runner/" rel="nofollow">RT 92%</a> - <a href="http://www.youtube.com/watch?v=4lW0F1sccqk" rel="nofollow">Youtube Trailer</a></p>
+						<br>
+						<p>A documentary on the making of Blade Runner, Dangerous Days, was released in 2007 as part of The Final Cut&#39;s release. - <a href="https://en.wikipedia.org/wiki/Blade_Runner#Dangerous_Days" rel="nofollow">Wikipedia</a> - <a href="http://www.imdb.com/title/tt1080585" rel="nofollow">IMDB</a> - <a href="https://www.rottentomatoes.com/m/dangerous_days_making_blade_runnerdangerous_days?" rel="nofollow">RT 92%</a> - <a href="https://www.youtube.com/watch?v=NyWYC-1aVMw" rel="nofollow">Youtube Trailer</a></p>
+						<p>A sequel, <strong>Blade Runner 2049</strong> was released in 2017. - <a href="https://en.wikipedia.org/wiki/Blade_Runner_2049" rel="nofollow">Wikipedia</a> - <a href="http://www.imdb.com/title/tt1856101/" rel="nofollow">IMDB</a> - <a href="https://www.rottentomatoes.com/m/blade_runner_2049/" rel="nofollow">RT 82%</a> - <a href="https://www.youtube.com/watch?v=gCcx85zbxz4" rel="nofollow">YouTube Trailer</a></p>
+						<br>
+						<p>Three short films were made to promote Blade Runner 2049 before its release:</p>
+						<ul>
+							<li><a href="https://www.youtube.com/watch?v=rrZk9sSgRyQ" rel="nofollow">Blade Runner 2022: Black Out</a></li>
+							<li><a href="https://www.youtube.com/watch?v=UgsS3nhRRzQ" rel="nofollow">Blade Runner 2036: Nexus Dawn</a></li>
+							<li><a href="https://www.youtube.com/watch?v=aZ9Os8cP_gg" rel="nofollow">Blade Runner 2048: Nowhere to Run</a></li>
+						</ul>
+						<br>
+						<h2>Alien Series</h2>
+						<ul>
+							<li>Alien (1979) - <a href="https://en.wikipedia.org/wiki/Alien_(film)" rel="nofollow">Wikipedia</a> - <a href="http://www.imdb.com/title/tt0078748/" rel="nofollow">IMDB</a> - <a href="http://www.rottentomatoes.com/m/alien/" rel="nofollow">RT 97%</a> - <a href="http://www.youtube.com/watch?v=LjLamj-b0I8" rel="nofollow">Youtube Trailer</a></li>
+							<li>Aliens (1986) - <a href="https://en.wikipedia.org/wiki/Aliens_(film)" rel="nofollow">Wikipedia</a> - <a href="http://www.imdb.com/title/tt0090605/" rel="nofollow">IMDB</a> - <a href="http://www.rottentomatoes.com/m/1000617-aliens/" rel="nofollow">RT 98%</a> - <a href="http://www.youtube.com/watch?v=hU1YaowhYKM" rel="nofollow">Youtube Trailer</a></li>
+							<li>Alien³ (1992) - <a href="https://en.wikipedia.org/wiki/Alien_3" rel="nofollow">Wikipedia</a> - <a href="http://www.imdb.com/title/tt0103644/" rel="nofollow">IMDB</a> - <a href="http://www.rottentomatoes.com/m/alien3/" rel="nofollow">RT 42%</a> - <a href="http://www.youtube.com/watch?v=0wJsw6KmRyU" rel="nofollow">Youtube Trailer</a></li>
+							<li>Alien Ressurection (1997) - <a href="https://en.wikipedia.org/wiki/Alien_Resurrection" rel="nofollow">Wikipedia</a> - <a href="http://www.imdb.com/title/tt0118583" rel="nofollow">IMDB</a> - <a href="http://www.rottentomatoes.com/m/alien_resurrection/" rel="nofollow">RT 52%</a> - <a href="https://www.youtube.com/watch?v=S1myB44Tjiw" rel="nofollow">Youtube Trailer</a></li>
+							<li>Prometheus (2012) - <a href="https://en.wikipedia.org/wiki/Prometheus_(2012_film)" rel="nofollow">Wikipedia</a> - <a href="http://www.imdb.com/title/tt1446714/" rel="nofollow">IMDB</a> - <a href="http://www.rottentomatoes.com/m/prometheus_2012/" rel="nofollow">RT 74%</a> - <a href="https://www.youtube.com/watch?v=sftuxbvGwiU" rel="nofollow">Youtube Trailer</a></li>
+							<li>Alien Covenant (2017) - <a href="https://en.wikipedia.org/wiki/Alien:_Covenant" rel="nofollow">Wikipedia</a> - <a href="http://www.imdb.com/title/tt2316204/" rel="nofollow">IMDB</a> - <a href="https://www.rottentomatoes.com/m/alien_covenant" rel="nofollow">RT 68%</a> - <a href="https://www.youtube.com/watch?v=svnAD0TApb8" rel="nofollow">Youtube Trailer</a></li>
+						</ul>
+						<br>
+						<h2>David Cronenberg</h2>
+						<ul>
+							<li>Videodrome (1983) - <a href="https://en.wikipedia.org/wiki/Videodrome" rel="nofollow">Wikipedia</a> - <a href="http://www.imdb.com/title/tt0086541/" rel="nofollow">IMDB</a> - <a href="http://www.rottentomatoes.com/m/videodrome/" rel="nofollow">RT 80%</a> - <a href="http://www.youtube.com/watch?v=M6AXQeCE9Rw" rel="nofollow">Youtube Trailer</a> - <a href="https://www.criterion.com/films/240-videodrome" rel="nofollow">Criterion</a></li>
+							<li>Crash (1996) - <a href="https://en.wikipedia.org/wiki/Crash_(1996_film)" rel="nofollow">Wikipedia</a> - <a href="http://www.imdb.com/title/tt0115964/" rel="nofollow">IMDB</a> - <a href="http://www.rottentomatoes.com/m/1076271-crash/" rel="nofollow">RT 58%</a> - <a href="http://www.youtube.com/watch?v=1XlDp3DLHxc" rel="nofollow">Youtube Trailer</a></li>
+							<li>eXistenZ (1999) - <a href="https://en.wikipedia.org/wiki/EXistenZ" rel="nofollow">Wikipedia</a> - <a href="http://www.imdb.com/title/tt0120907/" rel="nofollow">IMDB</a> - <a href="http://www.rottentomatoes.com/m/existenz/" rel="nofollow">RT 71%</a> - <a href="http://www.youtube.com/watch?v=HAdbdUt_h9M" rel="nofollow">Youtube Trailer</a></li>
+							<li>Cosmopolis (2012) - <a href="https://en.wikipedia.org/wiki/Cosmopolis_(film)" rel="nofollow">Wikipedia</a> - <a href="http://www.imdb.com/title/tt1480656/" rel="nofollow">IMDB</a> - <a href="https://www.rottentomatoes.com/m/cosmopolis" rel="nofollow">RT 64%</a> - <a href="https://www.youtube.com/watch?v=PvYyKTZtUG0" rel="nofollow">Youtube Trailer</a></li>
+						</ul>
+						<br>
+						<h2>John Carpenter</h2>
+						<ul>
+							<li>Escape from New York (1981) - <a href="https://en.wikipedia.org/wiki/Escape_from_New_York" rel="nofollow">Wikipedia</a> - <a href="http://www.imdb.com/title/tt0082340/" rel="nofollow">IMDB</a> - <a href="http://www.rottentomatoes.com/m/1006717-escape_from_new_york/" rel="nofollow">RT 83%</a> - <a href="http://www.youtube.com/watch?v=ckvDo2JHB7o" rel="nofollow">Youtube Trailer</a></li>
+							<li>They Live (1988) - <a href="https://en.wikipedia.org/wiki/They_Live" rel="nofollow">Wikipedia</a> - <a href="http://www.imdb.com/title/tt0096256/" rel="nofollow">IMDB</a> - <a href="http://www.rottentomatoes.com/m/they_live/" rel="nofollow">RT 89%</a> - <a href="http://www.youtube.com/watch?v=L86AAGZ9BBg" rel="nofollow">Youtube Trailer</a></li>
+							<li>Escape from LA (1996) - <a href="https://en.wikipedia.org/wiki/Escape_from_L.A." rel="nofollow">Wikipedia</a> - <a href="http://www.imdb.com/title/tt0116225/" rel="nofollow">IMDB</a> - <a href="http://www.rottentomatoes.com/m/escape_from_la/" rel="nofollow">RT 53%</a> - <a href="http://www.youtube.com/watch?v=drOdRwD1JF0" rel="nofollow">Youtube Trailer</a></li>
+						</ul>
+						<br>
+						<h2>The Matrix</h2>
+						<ul>
+							<li>The Matrix (1999) - <a href="https://en.wikipedia.org/wiki/The_matrix" rel="nofollow">Wikipedia</a> - <a href="http://www.imdb.com/title/tt0133093/" rel="nofollow">IMDB</a> - <a href="http://www.rottentomatoes.com/m/matrix/" rel="nofollow">RT 87%</a> - <a href="http://www.youtube.com/watch?v=m8e-FF8MsqU" rel="nofollow">Youtube Trailer</a></li>
+							<li>The Matrix Reloaded (2003) - <a href="https://en.wikipedia.org/wiki/The_Matrix_Reloaded" rel="nofollow">Wikipedia</a> - <a href="http://www.imdb.com/title/tt0234215/" rel="nofollow">IMDB</a> - <a href="http://www.rottentomatoes.com/m/matrix_reloaded/" rel="nofollow">RT 73%</a> - <a href="http://www.youtube.com/watch?v=HVrGMnk5E_M" rel="nofollow">Youtube Trailer</a></li>
+							<li>The Matrix Revolutions (2003) - <a href="https://en.wikipedia.org/wiki/The_Matrix_Revolutions" rel="nofollow">Wikipedia</a> - <a href="http://www.imdb.com/title/tt0242653/" rel="nofollow">IMDB</a> - <a href="http://www.rottentomatoes.com/m/matrix_revolutions/" rel="nofollow">RT 36%</a> - <a href="http://www.youtube.com/watch?v=NhoaoTZJSX4" rel="nofollow">Youtube Trailer</a></li>
+							<li>The Animatrix (2003) - <a href="https://en.wikipedia.org/wiki/The_Animatrix" rel="nofollow">Wikipedia</a> - <a href="http://www.imdb.com/title/tt0328832/" rel="nofollow">IMDB</a> - <a href="http://www.rottentomatoes.com/m/animatrix/" rel="nofollow">RT 88%</a> - <a href="http://www.youtube.com/watch?v=DUCMqT3nN_c" rel="nofollow">Youtube Trailer</a></li>
+						</ul>
+						<br>
+						<h2>Neill Blomkamp</h2>
+						<ul>
+							<li>District 9 (2009) - <a href="https://en.wikipedia.org/wiki/District_9" rel="nofollow">Wikipedia</a> - <a href="https://www.imdb.com/title/tt1136608/" rel="nofollow">IMDB 7.9</a> - <a href="https://www.rottentomatoes.com/m/district_9" rel="nofollow">RT</a></li>
+							<li>Elysium (2013) - <a href="https://en.wikipedia.org/wiki/Elysium_%28film%29" rel="nofollow">Wikipedia</a> - <a href="http://www.imdb.com/title/tt1535108/" rel="nofollow">IMDB 6.6</a> - <a href="http://www.rottentomatoes.com/m/elysium_2013/" rel="nofollow">RT 68%</a> - <a href="http://www.youtube.com/watch?v=oIBtePb-dGY" rel="nofollow">Youtube Trailer</a></li>
+							<li>Chappie (2015) - <a href="https://en.wikipedia.org/wiki/Chappie_%28film%29" rel="nofollow">Wikipedia</a> - <a href="http://www.imdb.com/title/tt1823672/" rel="nofollow">IMDB 6.8</a> - <a href="https://www.youtube.com/watch?v=l6bmTNadhJE" rel="nofollow">Youtube Trailer</a></li>
+						</ul>
+						<br>
+						<h2>Philip K. Dick</h2>
+						<ul>
+							<li>Blade Runner (1982) - <a href="https://en.wikipedia.org/wiki/Blade_Runner" rel="nofollow">Wikipedia</a> - <a href="http://www.imdb.com/title/tt0083658/" rel="nofollow">IMDB</a> - <a href="http://www.rottentomatoes.com/m/blade_runner/" rel="nofollow">RT 92%</a> - <a href="http://www.youtube.com/watch?v=4lW0F1sccqk" rel="nofollow">Youtube Trailer</a></li>
+							<li>Total Recall (1990) - <a href="https://en.wikipedia.org/wiki/Total_Recall_(1990_film)" rel="nofollow">Wikipedia</a> - <a href="http://www.imdb.com/title/tt0100802/" rel="nofollow">IMDB</a> - <a href="http://www.rottentomatoes.com/m/total_recall/" rel="nofollow">RT 84%</a> - <a href="http://www.youtube.com/watch?v=WFMLGEHdIjE" rel="nofollow">Youtube Trailer</a></li>
+							<li>Screamers (1995) - <a href="https://en.wikipedia.org/wiki/Screamers_(1995_film)" rel="nofollow">Wikipedia</a> - <a href="http://www.imdb.com/title/tt0114367/" rel="nofollow">IMDB</a> - <a href="http://www.rottentomatoes.com/m/1069696-screamers/" rel="nofollow">RT 30%</a> - <a href="http://www.youtube.com/watch?v=50rO2ICyc2A" rel="nofollow">Youtube Trailer</a></li>
+							<li>Impostor (2001) - <a href="https://en.wikipedia.org/wiki/Impostor_(film)" rel="nofollow">Wikipedia</a> - <a href="http://www.imdb.com/title/tt0160399/" rel="nofollow">IMDB</a> - <a href="http://www.rottentomatoes.com/m/impostor/" rel="nofollow">RT 22%</a> - <a href="https://www.youtube.com/watch?v=4H_P4xVUvv8" rel="nofollow">Youtube Trailer</a></li>
+							<li>Minority Report (2002) - <a href="https://en.wikipedia.org/wiki/Minority_Report_(film)" rel="nofollow">Wikipedia</a> - <a href="http://www.imdb.com/title/tt0181689/" rel="nofollow">IMDB</a> - <a href="http://www.rottentomatoes.com/m/minority_report/" rel="nofollow">RT 92%</a> - <a href="http://www.youtube.com/watch?v=q2bmImPNKbM" rel="nofollow">Youtube Trailer</a></li>
+							<li>Paycheck (2003) - <a href="https://en.wikipedia.org/wiki/Paycheck_(film" rel="nofollow">Wikipedia</a> - <a href="http://www.imdb.com/title/tt0338337/" rel="nofollow">IMDB</a> - <a href="http://www.rottentomatoes.com/m/paycheck/" rel="nofollow">RT 27%</a> - <a href="https://www.youtube.com/watch?v=1BOOQdiGVCo" rel="nofollow">Youtube Trailer</a></li>
+							<li>A Scanner Darkly (2006) - <a href="https://en.wikipedia.org/wiki/A_Scanner_Darkly_(film)" rel="nofollow">Wikipedia</a> - <a href="http://www.imdb.com/title/tt0405296/" rel="nofollow">IMDB</a> - <a href="http://www.rottentomatoes.com/m/scanner_darkly/" rel="nofollow">RT 69%</a> - <a href="http://www.youtube.com/watch?v=oVnvilLFk2Y" rel="nofollow">Youtube Trailer</a></li>
+							<li>Next (2007) - <a href="https://en.wikipedia.org/wiki/Next_(2007_film" rel="nofollow">Wikipedia</a> - <a href="http://www.imdb.com/title/tt0435705/" rel="nofollow">IMDB</a> - <a href="http://www.rottentomatoes.com/m/next/" rel="nofollow">RT 28%</a> - <a href="http://www.youtube.com/watch?v=cuT1ht5netI" rel="nofollow">Youtube Trailer</a></li>
+							<li>Radio Free Albermuth (2010) - <a href="https://en.wikipedia.org/wiki/Radio_Free_Albemuth_(film)" rel="nofollow">Wikipedia</a> - <a href="http://www.imdb.com/title/tt1129396/" rel="nofollow">IMDB</a> - <a href="http://www.rottentomatoes.com/m/radio_free_albemuth_2011/" rel="nofollow">RT</a> - <a href="https://www.youtube.com/watch?v=sAtAxJj78Ec" rel="nofollow">Youtube Trailer</a></li>
+							<li>The Adjustment Bureau (2011) - <a href="https://en.wikipedia.org/wiki/The_Adjustment_Bureau" rel="nofollow">Wikipedia</a> - <a href="http://www.imdb.com/title/tt1385826/" rel="nofollow">IMDB</a> - <a href="https://www.rottentomatoes.com/m/adjustment_bureau" rel="nofollow">RT 71%</a> - <a href="https://www.youtube.com/watch?v=fSeWHl1PaKs" rel="nofollow">Youtube Trailer</a></li>
+							<li>Total Recall (2012) - <a href="https://en.wikipedia.org/wiki/Total_Recall_(2012_film)" rel="nofollow">Wikipedia</a> - <a href="http://www.imdb.com/title/tt1386703/" rel="nofollow">IMDB</a> - <a href="http://www.rottentomatoes.com/m/total_recall_2012/" rel="nofollow">RT 31%</a> - <a href="http://www.youtube.com/watch?v=WFMLGEHdIjE" rel="nofollow">Youtube Trailer</a></li>
+						</ul>
+						<br>
+						<h2>Robocop</h2>
+						<ul>
+							<li>Robocop (1987) - <a href="https://en.wikipedia.org/wiki/Robocop" rel="nofollow">Wikipedia</a> - <a href="http://www.imdb.com/title/tt0093870/" rel="nofollow">IMDB</a> - <a href="http://www.rottentomatoes.com/m/1017712-robocop/" rel="nofollow">RT 88%</a> - <a href="http://www.youtube.com/watch?v=clqK5OC3BWE" rel="nofollow">Youtube Trailer</a> - <a href="https://www.criterion.com/films/542-robocop" rel="nofollow">Criterion</a></li>
+							<li>Robocop 2 (1990) - <a href="https://en.wikipedia.org/wiki/RoboCop_2" rel="nofollow">Wikipedia</a> - <a href="http://www.imdb.com/title/tt0100502/" rel="nofollow">IMDB</a> - <a href="http://www.rottentomatoes.com/m/robocop_2/" rel="nofollow">RT 34%</a> - <a href="http://www.youtube.com/watch?v=tLG3RKdhDcQ" rel="nofollow">Youtube Trailer</a></li>
+							<li>Robocop 3 (1993) - <a href="https://en.wikipedia.org/wiki/RoboCop_3" rel="nofollow">Wikipedia</a> - <a href="http://www.imdb.com/title/tt0107978/" rel="nofollow">IMDB</a> - <a href="http://www.rottentomatoes.com/m/robocop_3/" rel="nofollow">RT 4%</a> - <a href="http://www.youtube.com/watch?v=rOdELisKpP4" rel="nofollow">Youtube Trailer</a></li>
+							<li>Robocop (2014) - <a href="https://en.wikipedia.org/wiki/RoboCop_(2014_film)" rel="nofollow">Wikipedia</a> - <a href="http://www.imdb.com/title/tt1234721/" rel="nofollow">IMDB</a> - <a href="http://www.rottentomatoes.com/m/1200731-robocop/" rel="nofollow">RT 49%</a> - <a href="http://www.youtube.com/watch?v=Ma3cGn-HWVE" rel="nofollow">Youtube Trailer</a></li>
+						</ul>
+						<br>
+						<h2>The Terminator</h2>
+						<ul>
+							<li>The Terminator (1984) - <a href="https://en.wikipedia.org/wiki/The_Terminator" rel="nofollow">Wikipedia</a> - <a href="http://www.imdb.com/title/tt0088247/" rel="nofollow">IMDB</a> - <a href="http://www.rottentomatoes.com/m/terminator/" rel="nofollow">RT 100%</a> - <a href="http://www.youtube.com/watch?v=bY2w3Bk6uQ4" rel="nofollow">Youtube Trailer</a></li>
+							<li>Terminator 2: Judgement Day (1991) - <a href="https://en.wikipedia.org/wiki/Terminator_2:_Judgment_Day" rel="nofollow">Wikipedia</a> - <a href="http://www.imdb.com/title/tt0103064/" rel="nofollow">IMDB</a> - <a href="http://www.rottentomatoes.com/m/terminator_2_judgment_day/" rel="nofollow">RT 98%</a> - <a href="http://www.youtube.com/watch?v=eajuMYNYtuY" rel="nofollow">Youtube Trailer</a></li>
+							<li>Terminator 3: Rise of the Machines (2003) - <a href="https://en.wikipedia.org/wiki/Terminator_3:_Rise_of_the_Machines" rel="nofollow">Wikipedia</a> - <a href="http://www.imdb.com/title/tt0181852/" rel="nofollow">IMDB</a> - <a href="http://www.rottentomatoes.com/m/terminator_3_rise_of_the_machines/" rel="nofollow">RT 70%</a> - <a href="http://www.youtube.com/watch?v=QHhZK-g7wHo" rel="nofollow">Youtube Trailer</a></li>
+							<li>Terminator Salvation (2009) - <a href="https://en.wikipedia.org/wiki/Terminator_Salvation" rel="nofollow">Wikipedia</a> - <a href="http://www.imdb.com/title/tt0438488/" rel="nofollow">IMDB</a> - <a href="http://www.rottentomatoes.com/m/terminator_4/" rel="nofollow">RT 33%</a> - <a href="http://www.youtube.com/watch?v=LHAQjlufY0A" rel="nofollow">Youtube Trailer</a></li>
+							<li>Terminator Genisys (2015) - <a href="https://en.wikipedia.org/wiki/Terminator_Genisys" rel="nofollow">Wikipedia</a> - <a href="http://www.imdb.com/title/tt1340138/" rel="nofollow">IMDB</a> - <a href="https://www.rottentomatoes.com/m/terminator_genisys" rel="nofollow">RT 26%</a> - <a href="https://www.youtube.com/watch?v=62E4FJTwSuc" rel="nofollow">Youtube Trailer</a></li>
+						</ul>
+						<br>
+						<h2>TRON</h2>
+						<ul>
+							<li>TRON (1982) - <a href="https://en.wikipedia.org/wiki/Tron" rel="nofollow">Wikipedia</a> - <a href="http://www.imdb.com/title/tt0084827/" rel="nofollow">IMDB</a> - <a href="http://www.rottentomatoes.com/m/tron/" rel="nofollow">RT 70%</a> - <a href="http://www.youtube.com/watch?v=3efV2wqEjEY" rel="nofollow">Youtube Trailer</a></li>
+							<li>TRON Legacy (2010) - <a href="https://en.wikipedia.org/wiki/Tron:_Legacy" rel="nofollow">Wikipedia</a> - <a href="http://www.imdb.com/title/tt1104001/" rel="nofollow">IMDB</a> - <a href="http://www.rottentomatoes.com/m/10011582-TRON_legacy/" rel="nofollow">RT 51%</a> - <a href="http://www.youtube.com/watch?v=L9szn1QQfas" rel="nofollow">Youtube Trailer</a></li>
+						</ul>
+						<br>
+						<h2>William Gibson</h2>
+						<ul>
+							<li>Johnny Mnemonic (1995) - <a href="https://en.wikipedia.org/wiki/Johnny_Mnemonic_(film)" rel="nofollow">Wikipedia</a> - <a href="http://www.imdb.com/title/tt0113481/" rel="nofollow">IMDB</a> - <a href="http://www.rottentomatoes.com/m/johnny_mnemonic/" rel="nofollow">RT 14%</a> - <a href="http://www.youtube.com/watch?v=78kcBkxY8Bk" rel="nofollow">Youtube Trailer</a></li>
+							<li>New Rose Hotel (1998) - <a href="https://en.wikipedia.org/wiki/New_Rose_Hotel_(film)" rel="nofollow">Wikipedia</a> - <a href="http://www.imdb.com/title/tt0133122/" rel="nofollow">IMDB</a> - <a href="http://www.rottentomatoes.com/m/new_rose_hotel/" rel="nofollow">RT 19%</a> - <a href="http://www.youtube.com/watch?v=8bOFz2SYlpE" rel="nofollow">Youtube Trailer</a></li>
+							<li>No Maps for These Territories (2000) - <a href="https://en.wikipedia.org/wiki/No_Maps_for_These_Territories" rel="nofollow">Wikipedia</a> - <a href="http://www.imdb.com/title/tt0269629/" rel="nofollow">IMDB</a> - <a href="http://www.rottentomatoes.com/m/william_gibson_no_maps_for_these_territories/" rel="nofollow">RT 64%</a> - <a href="http://www.youtube.com/watch?v=poQwVguZeBg" rel="nofollow">Youtube Trailer</a> - <a href="http://archive.org/details/NoMapsForTheseTerritories" rel="nofollow">Archive.org</a></li>
+							<li>Tomorrow Calling (1993) - <a href="https://en.wikipedia.org/wiki/Tomorrow_calling#Adaptations" rel="nofollow">Wikipedia</a> - <a href="http://www.imdb.com/title/tt0372574/" rel="nofollow">IMDB</a> - <a href="http://www.youtube.com/watch?v=1BmRiDxrnPQ" rel="nofollow">Youtube</a> - <a href="http://vimeo.com/63008556" rel="nofollow">vimeo</a></li>
+						</ul>
+						<br>
+						<h2>Other movies</h2>
+						<ul>
+							<li>Aeon Flux (2005) - <a href="https://en.wikipedia.org/wiki/%C3%86on_Flux_(film)" rel="nofollow">Wikipedia</a> - <a href="http://www.imdb.com/title/tt0402022/" rel="nofollow">IMDB</a> - <a href="http://www.rottentomatoes.com/m/aeon_flux/" rel="nofollow">RT 10%</a> - <a href="http://www.youtube.com/watch?v=HNjyVjoDyQo" rel="nofollow">Youtube Trailer</a></li>
+							<li>Alita: Battle Angel (2019) - <a href="https://en.wikipedia.org/wiki/Alita:_Battle_Angel" rel="nofollow">Wikipedia</a> - <a href="https://www.imdb.com/title/tt0437086/" rel="nofollow">IMDB</a> - <a href="https://www.rottentomatoes.com/m/alita_battle_angel" rel="nofollow">RT 60%</a> - <a href="https://www.youtube.com/watch?v=w7pYhpJaJW8" rel="nofollow">Youtube Trailer</a></li>
+							<li>Automata (2014) - <a href="https://en.wikipedia.org/wiki/Automata_%28film%29" rel="nofollow">Wikipedia</a> - <a href="http://www.imdb.com/title/tt1971325/" rel="nofollow">IMDB</a> - <a href="http://www.rottentomatoes.com/m/automata/" rel="nofollow">RT 31%</a> - <a href="https://www.youtube.com/watch?v=Wh_wmaOZcWo" rel="nofollow">YouTube Trailer</a></li>
+							<li>Babylon A.D. (2008) - <a href="https://en.wikipedia.org/wiki/Babylon_A.D." rel="nofollow">Wikipedia</a> - <a href="http://www.imdb.com/title/tt0364970/" rel="nofollow">IMDB</a> - <a href="http://www.rottentomatoes.com/m/babylon_ad/" rel="nofollow">RT  6%</a> - <a href="https://www.youtube.com/watch?v=JyhEHKB6cmY" rel="nofollow">Youtube Trailer</a></li>
+							<li>Brazil (1985) - <a href="https://en.wikipedia.org/wiki/Brazil_(film)" rel="nofollow">Wikipedia</a> - <a href="http://www.imdb.com/title/tt0088846/" rel="nofollow">IMDB</a> - <a href="http://www.rottentomatoes.com/m/1003033-brazil/" rel="nofollow">RT 98%</a> - <a href="http://www.youtube.com/watch?v=4Wh2b1eZFUM" rel="nofollow">Youtube Trailer</a> - <a href="https://www.criterion.com/films/211-brazil" rel="nofollow">Criterion</a></li>
+							<li>Circuitry Man (1990) - <a href="https://en.wikipedia.org/wiki/Circuitry_Man" rel="nofollow">Wikipedia</a> - <a href="http://www.imdb.com/title/tt0099271/" rel="nofollow">IMDB</a> - <a href="http://www.rottentomatoes.com/m/circuitry_man/" rel="nofollow">RT 42%</a> - <a href="http://www.youtube.com/watch?v=bcw4LtLa4s4" rel="nofollow">Youtube Trailer</a></li>
+							<li>Circuitry Man 2: Plughead Rewired (1994) - <a href="https://en.wikipedia.org/wiki/Plughead_Rewired:_Circuitry_Man_II" rel="nofollow">Wikipedia</a> - <a href="http://www.imdb.com/title/tt0110851/" rel="nofollow">IMDB</a> - <a href="http://www.rottentomatoes.com/m/circuitry_man_ii_plughead_rewired/" rel="nofollow">RT 0%</a> - <a href="http://www.youtube.com/watch?v=O6ocbeaxAfw" rel="nofollow">Youtube Trailer</a></li>
+							<li>Class of 1999 (1990) - <a href="https://en.wikipedia.org/wiki/Class_of_1999" rel="nofollow">Wikipedia</a> - <a href="http://www.imdb.com/title/tt0099277/" rel="nofollow">IMDB</a> - <a href="http://www.rottentomatoes.com/m/class_of_1999/" rel="nofollow">RT 60%</a> - <a href="http://www.youtube.com/watch?v=Pr9UjGY8X6M" rel="nofollow">Youtube Trailer</a></li>
+							<li>Code Hunter (2002) aka Storm Watch - <a href="https://en.wikipedia.org/wiki/Storm_Watch" rel="nofollow">Wikipedia</a> - <a href="http://www.imdb.com/title/tt0311866/?" rel="nofollow">IMDB</a> - <a href="https://www.rottentomatoes.com/m/code_hunter" rel="nofollow">RT 43%</a> - <a href="https://www.youtube.com/watch?v=SmSSFTvxUN8" rel="nofollow">Youtube Trailer</a></li>
+							<li>Cyborg (1989) - <a href="https://en.wikipedia.org/wiki/Cyborg_(film)" rel="nofollow">Wikipedia</a> - <a href="http://www.imdb.com/title/tt0097138/" rel="nofollow">IMDB</a> - <a href="http://www.rottentomatoes.com/m/cyborg/" rel="nofollow">RT 14%</a> - <a href="http://www.youtube.com/watch?v=NsyjFihG5k8" rel="nofollow">Youtube Trailer</a></li>
+							<li>Cyborg 2 (1993) - <a href="https://en.wikipedia.org/wiki/Cyborg_2" rel="nofollow">Wikipedia</a> - <a href="http://www.imdb.com/title/tt0106639/" rel="nofollow">IMDB</a> - <a href="http://www.rottentomatoes.com/m/cyborg_2/" rel="nofollow">RT 26%%</a> - <a href="http://www.youtube.com/watch?v=yaPvFX1KPWo" rel="nofollow">Youtube Trailer</a></li>
+							<li>Cyborg 3: The Recycler (1994) - <a href="https://en.wikipedia.org/wiki/Cyborg_3:_The_Recycler" rel="nofollow">Wikipedia</a> - <a href="http://www.imdb.com/title/tt0112765/" rel="nofollow">IMDB</a> - <a href="http://www.rottentomatoes.com/m/cyborg_3_the_recycler/" rel="nofollow">RT 18%</a> - <a href="http://www.youtube.com/watch?v=3CQ1duUWa1s" rel="nofollow">Youtube Trailer</a></li>
+							<li>Cypher (2002) - <a href="https://en.wikipedia.org/wiki/Cypher_(film)" rel="nofollow">Wikipedia</a> - <a href="http://www.imdb.com/title/tt0284978/" rel="nofollow">IMDB</a> - <a href="http://www.rottentomatoes.com/m/cypher/" rel="nofollow">RT 61%</a> - <a href="http://www.youtube.com/watch?v=KNAnt2FfPiM" rel="nofollow">Youtube Trailer</a></li>
+							<li>Dredd (2012) - <a href="https://en.wikipedia.org/wiki/Dredd" rel="nofollow">Wikipedia</a> - <a href="http://www.imdb.com/title/tt1343727/" rel="nofollow">IMDB</a> - <a href="http://www.rottentomatoes.com/m/dredd/" rel="nofollow">RT 78%</a> - <a href="http://www.youtube.com/watch?v=PifvRiHVSCY" rel="nofollow">Youtube Trailer</a></li>
+							<li>Equilibrium (2002) - <a href="https://en.wikipedia.org/wiki/Equilibrium_(film)" rel="nofollow">Wikipedia</a> - <a href="http://www.imdb.com/title/tt0238380/" rel="nofollow">IMDB</a> - <a href="http://www.rottentomatoes.com/m/equilibrium/" rel="nofollow">RT 37%</a> - <a href="http://www.youtube.com/watch?v=ZVDiaYQXBVs" rel="nofollow">Youtube Trailer</a></li>
+							<li>Ex Machina (2015) - <a href="https://en.wikipedia.org/wiki/Ex_Machina_%28film%29" rel="nofollow">Wikipedia</a> - <a href="http://www.imdb.com/title/tt0470752/" rel="nofollow">IMDB</a> - <a href="http://www.rottentomatoes.com/m/ex_machina/" rel="nofollow">RT 100%</a> - <a href="https://www.youtube.com/watch?v=XYGzRB4Pnq8" rel="nofollow">Youtube Trailer</a></li>
+							<li>The Fifth Element (1997) - <a href="https://en.wikipedia.org/wiki/The_Fifth_Element" rel="nofollow">Wikipedia</a> - <a href="http://www.imdb.com/title/tt0119116/" rel="nofollow">IMDB</a> - <a href="http://www.rottentomatoes.com/m/fifth_element/" rel="nofollow">RT 71%</a> - <a href="http://www.youtube.com/watch?v=VkX7dHjL-aY" rel="nofollow">Youtube Trailer</a></li>
+							<li>Fortress (1992) - <a href="https://en.wikipedia.org/wiki/Fortress_%281992_film%29" rel="nofollow">Wikipedia</a> - <a href="http://www.imdb.com/title/tt0106950/" rel="nofollow">IMDB</a> - <a href="http://www.rottentomatoes.com/m/1045715-fortress/" rel="nofollow">RT 40%</a> - <a href="https://www.youtube.com/watch?v=3U6oLx3xy8s" rel="nofollow">Youtube Trailer</a></li>
+							<li>Freejack (1992) - <a href="https://en.wikipedia.org/wiki/Freejack" rel="nofollow">Wikipedia</a> - <a href="http://www.imdb.com/title/tt0104299/" rel="nofollow">IMDB</a> - <a href="http://www.rottentomatoes.com/m/freejack/" rel="nofollow">RT 14%</a> - <a href="https://www.youtube.com/watch?v=7Zxr-Y-5YyA" rel="nofollow">Youtube Trailer</a></li>
+							<li>Gamer (2009) - <a href="https://en.wikipedia.org/wiki/Gamer_(film)" rel="nofollow">Wikipedia</a> - <a href="http://www.imdb.com/title/tt1034032/" rel="nofollow">IMDB</a> - <a href="https://www.rottentomatoes.com/m/gamer" rel="nofollow">RT 28%</a> - <a href="https://www.youtube.com/watch?v=ECoPbiGfjNw" rel="nofollow">Youtube Trailer</a></li>
+							<li>Ghost in the Shell (2017) - <a href="https://en.wikipedia.org/wiki/Ghost_in_the_Shell_(2017_film)" rel="nofollow">Wikipedia</a> - <a href="http://www.imdb.com/title/tt1219827" rel="nofollow">IMDB</a> - <a href="https://www.rottentomatoes.com/m/ghost_in_the_shell_2017" rel="nofollow">RT 45%</a> - <a href="https://www.youtube.com/watch?v=G4VmJcZR0Yg" rel="nofollow">Youtube Trailer</a></li>
+							<li>Hardware (1990) - <a href="https://en.wikipedia.org/wiki/Hardware_(film)" rel="nofollow">Wikipedia</a> - <a href="http://www.imdb.com/title/tt0099740/" rel="nofollow">IMDB</a> - <a href="http://www.rottentomatoes.com/m/hardware/" rel="nofollow">RT 55%</a> - <a href="http://www.youtube.com/watch?v=jnVVyfyFChE" rel="nofollow">Youtube Trailer</a></li>
+							<li>Hardwired (2009) - <a href="https://en.wikipedia.org/wiki/Hardwired_(film)" rel="nofollow">Wikipedia</a> - <a href="http://www.imdb.com/title/tt1405412/" rel="nofollow">IMDB</a> - <a href="http://www.rottentomatoes.com/m/hardwired/" rel="nofollow">RT 26%</a> - <a href="http://www.youtube.com/watch?v=bdImGZA-2SM" rel="nofollow">Youtube Trailer</a></li>
+							<li>Judge Dredd (1995) - <a href="https://en.wikipedia.org/wiki/Judge_Dredd_(film)" rel="nofollow">Wikipedia</a> - <a href="http://www.imdb.com/title/tt0113492/" rel="nofollow">IMDB</a> - <a href="http://www.rottentomatoes.com/m/judge_dredd/" rel="nofollow">RT 18%</a> - <a href="http://www.youtube.com/watch?v=43-BefmjMFg" rel="nofollow">Youtube Trailer</a></li>
+							<li>Kamikaze &#39;89 (1983) - <a href="https://en.wikipedia.org/wiki/Kamikaze_1989" rel="nofollow">Wikipedia</a> - <a href="https://www.imdb.com/title/tt0084191/" rel="nofollow">IMDB</a> - <a href="https://www.rottentomatoes.com/m/kamikaze_89/" rel="nofollow">RT 86%</a> - <a href="https://www.youtube.com/watch?v=ptje_US6YpA" rel="nofollow">Youtube Trailer</a></li>
+							<li>Kung Fury (2015) - <a href="https://en.wikipedia.org/wiki/Kung_Fury" rel="nofollow">Wikipedia</a> - <a href="http://www.imdb.com/title/tt3472226/" rel="nofollow">IMDB</a> - <a href="https://www.rottentomatoes.com/m/kung_fury" rel="nofollow">RT 86%</a> - <a href="https://www.youtube.com/watch?v=72RqpItxd8M" rel="nofollow">Youtube Trailer</a></li>
+							<li>The Lawnmower Man (1992) - <a href="https://en.wikipedia.org/wiki/The_Lawnmower_Man_(film)" rel="nofollow">Wikipedia</a> - <a href="http://www.imdb.com/title/tt0104692/" rel="nofollow">IMDB</a> - <a href="http://www.rottentomatoes.com/m/lawnmower_man/" rel="nofollow">RT 47%</a> - <a href="http://www.youtube.com/watch?v=YCxFGxqLsHE" rel="nofollow">Youtube Trailer</a></li>
+							<li>The Lawnmower Man 2: Beyond Cyberspace (1996) - <a href="https://en.wikipedia.org/wiki/The_Lawnmower_Man_2:_Beyond_Cyberspace" rel="nofollow">Wikipedia</a> - <a href="http://www.imdb.com/title/tt0116839/" rel="nofollow">IMDB</a> - <a href="http://www.rottentomatoes.com/m/lawnmower_man_2_jobes_war/" rel="nofollow">RT 11%</a> - <a href="http://www.youtube.com/watch?v=0bRH_dVye7A" rel="nofollow">Youtube Trailer</a></li>
+							<li>Megaville (1991) - <a href="https://en.wikipedia.org/wiki/Megaville" rel="nofollow">Wikipedia</a> - <a href="http://www.imdb.com/title/tt0100130/" rel="nofollow">IMDB</a> - <a href="http://www.rottentomatoes.com/m/megaville/" rel="nofollow">RT 33%</a> - <a href="http://www.youtube.com/watch?v=lJJkgUYpY-M" rel="nofollow">Youtube Trailer</a></li>
+							<li>Looper (2012) - <a href="https://en.wikipedia.org/wiki/Looper_(film)" rel="nofollow">Wikipedia</a> - <a href="https://www.imdb.com/title/tt1276104/" rel="nofollow">IMDB</a> - <a href="https://www.rottentomatoes.com/m/looper/" rel="nofollow">RT 93%</a> - <a href="https://www.youtube.com/watch?v=2iQuhsmtfHw" rel="nofollow">Youtube Trailer</a></li>
+							<li>Mute (2018) - <a href="https://en.wikipedia.org/wiki/Mute_(2018_film)" rel="nofollow">Wikipedia</a> - <a href="http://www.imdb.com/title/tt1464763/" rel="nofollow">IMDB</a> - <a href="https://www.rottentomatoes.com/m/mute/" rel="nofollow">RT 9%</a> - <a href="https://www.youtube.com/watch?v=ma8te7ywEio" rel="nofollow">Youtube Trailer</a> - <a href="https://www.netflix.com/title/80119233" rel="nofollow">Netflix</a></li>
+							<li>Nemesis (1993) - <a href="https://en.wikipedia.org/wiki/Nemesis_(film)" rel="nofollow">Wikipedia</a> - <a href="http://www.imdb.com/title/tt0107668/" rel="nofollow">IMDB</a> - <a href="http://www.rottentomatoes.com/m/nemesis/" rel="nofollow">RT 41%</a> - <a href="http://www.youtube.com/watch?v=TZDrTylco1o" rel="nofollow">Youtube Trailer</a></li>
+							<li>Nirvana (1996) - <a href="https://en.wikipedia.org/wiki/Nirvana_(film)" rel="nofollow">Wikipedia</a> - <a href="http://www.imdb.com/title/tt0119794/" rel="nofollow">IMDB</a> - <a href="http://www.rottentomatoes.com/m/1140962-nirvana/" rel="nofollow">RT 64%</a> - <a href="http://www.youtube.com/watch?v=OVar9Sl-V3I" rel="nofollow">Youtube Trailer</a></li>
+							<li>Outland (1981) - <a href="https://en.wikipedia.org/wiki/Outland_(film)" rel="nofollow">Wikipedia</a> - <a href="http://www.imdb.com/title/tt0082869/" rel="nofollow">IMDB</a> - <a href="http://www.rottentomatoes.com/m/13884/" rel="nofollow">RT 58%</a> - <a href="http://www.youtube.com/watch?v=Ez2XfvN8XSc" rel="nofollow">Youtube Trailer</a></li>
+							<li>Overdrawn at the Memory Bank (1983) - <a href="https://en.wikipedia.org/wiki/Overdrawn_at_the_Memory_Bank" rel="nofollow">Wikipedia</a> - <a href="http://www.imdb.com/title/tt0089759/" rel="nofollow">IMDB</a> - <a href="http://www.rottentomatoes.com/m/overdrawn-at-the-memory-bank/" rel="nofollow">RT 20%</a> - <a href="http://www.youtube.com/watch?v=Pes5jrn0jMw" rel="nofollow">Youtube Trailer</a> - <a href="http://www.youtube.com/watch?v=UVo0dyjnWYo" rel="nofollow">MST3k Youtube</a></li>
+							<li>Renaissance (2006) - <a href="https://en.wikipedia.org/wiki/Renaissance_(film)" rel="nofollow">Wikipedia</a> - <a href="http://www.imdb.com/title/tt0386741/" rel="nofollow">IMDB</a> - <a href="http://www.rottentomatoes.com/m/renaissance/" rel="nofollow">RT 47%</a> - <a href="http://www.youtube.com/watch?v=qkReRfxU0Yo" rel="nofollow">Youtube Trailer</a></li>
+							<li>Repo Men (2010) - <a href="https://en.wikipedia.org/wiki/Repo_Men" rel="nofollow">Wikipedia</a> - <a href="http://www.imdb.com/title/tt1053424/" rel="nofollow">IMDB</a> - <a href="https://www.rottentomatoes.com/m/10012068_repo_men" rel="nofollow">RT 22%</a> - <a href="https://www.youtube.com/watch?v=jl9Nvg4yuus" rel="nofollow">Youtube Trailer</a></li>
+							<li>Repo! The Genetic Opera (2008) - <a href="https://en.wikipedia.org/wiki/Repo!_The_Genetic_Opera" rel="nofollow">Wikipedia</a> - <a href="http://www.imdb.com/title/tt0963194/" rel="nofollow">IMDB</a> - <a href="http://www.rottentomatoes.com/m/repo_the_genetic_opera/" rel="nofollow">RT 34%</a> - <a href="http://www.youtube.com/watch?v=MzgpU25C6fg" rel="nofollow">Youtube Trailer</a></li>
+							<li>The Running Man (1987) - <a href="https://en.wikipedia.org/wiki/The_Running_Man_(1987_film)" rel="nofollow">Wikipedia</a> - <a href="http://www.imdb.com/title/tt0093894/" rel="nofollow">IMDB</a> - <a href="http://www.rottentomatoes.com/m/running_man/" rel="nofollow">RT 61%</a> - <a href="http://www.youtube.com/watch?v=-ceegnWSENQ" rel="nofollow">Youtube Trailer</a></li>
+							<li>Sleep Dealer (2008) - <a href="https://en.wikipedia.org/wiki/Sleep_Dealer" rel="nofollow">Wikipedia</a> - <a href="http://www.imdb.com/title/tt0804529/" rel="nofollow">IMDB</a> - <a href="http://www.rottentomatoes.com/m/sleep_dealer/" rel="nofollow">RT 66%</a> - <a href="http://www.youtube.com/watch?v=xW8oSRSzS7M" rel="nofollow">Youtube Trailer</a></li>
+							<li>Split Second (1992) - <a href="https://en.wikipedia.org/wiki/Split_Second_(1992_film)" rel="nofollow">Wikipedia</a> - <a href="http://www.imdb.com/title/tt0105459/" rel="nofollow">IMDB</a> - <a href="http://www.rottentomatoes.com/m/1038419-split_second/" rel="nofollow">RT 54%</a> - <a href="http://www.youtube.com/watch?v=B3htEmUIUSo" rel="nofollow">Youtube Trailer</a></li>
+							<li>Strange Days (1995) - <a href="https://en.wikipedia.org/wiki/Strange_Days_(film)" rel="nofollow">Wikipedia</a> - <a href="http://www.imdb.com/title/tt0114558/" rel="nofollow">IMDB</a> - <a href="http://www.rottentomatoes.com/m/strange_days/" rel="nofollow">RT 63%</a> - <a href="http://www.youtube.com/watch?v=5yaXPx6xWEQ" rel="nofollow">Youtube Trailer</a></li>
+							<li>Surrogates (2009) - <a href="https://en.wikipedia.org/wiki/Surrogates" rel="nofollow">Wikipedia</a> - <a href="https://www.imdb.com/title/tt0986263/" rel="nofollow">IMDB</a> - <a href="https://www.rottentomatoes.com/m/10009598_surrogates" rel="nofollow">RT 38%</a> - <a href="https://www.youtube.com/watch?v=UGwQ74cH5O0" rel="nofollow">Youtube Trailer</a></li>
+							<li>The Thirteenth Floor (1999) - <a href="https://en.wikipedia.org/wiki/The_13th_Floor" rel="nofollow">Wikipedia</a> - <a href="http://www.imdb.com/title/tt0139809/" rel="nofollow">IMDB</a> - <a href="http://www.rottentomatoes.com/m/1089671-13th_floor/" rel="nofollow">RT 27%</a> - <a href="https://www.youtube.com/watch?v=pb6LBi-Sf7s" rel="nofollow">Youtube Trailer</a></li>
+							<li>The Zero Theorem (2013) - <a href="https://en.wikipedia.org/wiki/The_Zero_Theorem" rel="nofollow">Wikipedia</a> - <a href="http://www.imdb.com/title/tt2333804/" rel="nofollow">IMDB</a> - <a href="http://www.rottentomatoes.com/m/the_zero_theorem/" rel="nofollow">RT 51%</a> - <a href="http://www.youtube.com/watch?v=NQzN0Xk1hw8" rel="nofollow">Youtube Trailer</a></li>
+							<li>Transcendence (2014) - <a href="https://en.wikipedia.org/wiki/Transcendence_%282014_film%29" rel="nofollow">Wikipedia</a> - <a href="http://www.imdb.com/title/tt2209764/" rel="nofollow">IMDB</a> - <a href="http://www.rottentomatoes.com/m/transcendence_2014/" rel="nofollow">RT 19%</a> - <a href="https://www.youtube.com/watch?v=VCTen3-B8GU" rel="nofollow">Youtube Trailer</a></li>
+							<li>Until the End of the World (1991) - <a href="https://en.wikipedia.org/wiki/Until_the_End_of_the_World" rel="nofollow">Wikipedia</a> - <a href="http://www.imdb.com/title/tt0101458/" rel="nofollow">IMDB</a> - <a href="http://www.rottentomatoes.com/m/until_the_end_of_the_world/" rel="nofollow">RT 83%</a> - <a href="http://www.youtube.com/watch?v=mg6mzRlgVWo" rel="nofollow">Youtube Trailer</a></li>
+							<li>Zoe (2018) - <a href="https://en.wikipedia.org/wiki/Zoe_(film" rel="nofollow">Wikipedia</a>) - <a href="https://www.imdb.com/title/tt6010628/?ref_=nv_sr_1" rel="nofollow">IMDB</a> - <a href="https://www.youtube.com/watch?v=0diEvmEoZjQ" rel="nofollow">Youtube Trailer</a></li>
+						</ul>
+						<br>
+						<h2>Japanese Cyberpunk</h2>
+						<ul>
+							<li>964 Pinocchio (1991) - <a href="https://en.wikipedia.org/wiki/964_Pinocchio" rel="nofollow">Wikipedia</a> - <a href="http://www.imdb.com/title/tt0225009/" rel="nofollow">IMDB</a> - <a href="http://www.rottentomatoes.com/m/pinocchio_964/" rel="nofollow">RT 54%</a> - <a href="http://www.youtube.com/watch?v=RJI_szKnDbo" rel="nofollow">Youtube Trailer</a></li>
+							<li>Avalon (2001) - <a href="https://en.wikipedia.org/wiki/Avalon_(2001_film)" rel="nofollow">Wikipedia</a> - <a href="http://www.imdb.com/title/tt0267287/" rel="nofollow">IMDB</a> - <a href="http://www.rottentomatoes.com/m/avalon/" rel="nofollow">RT 70%</a> - <a href="http://www.youtube.com/watch?v=0K9keJYO8BM" rel="nofollow">Youtube Trailer</a></li>
+							<li>Battle Royale (2000) - <a href="https://en.wikipedia.org/wiki/Battle_Royale" rel="nofollow">Wikipedia</a> - <a href="http://www.imdb.com/title/tt0266308" rel="nofollow">IMDB</a> - <a href="https://www.rottentomatoes.com/m/battle_royale" rel="nofollow">RT 87%</a> - <a href="https://www.youtube.com/watch?v=N0p1t-dC7Ko" rel="nofollow">Youtube Trailer</a></li>
+							<li>Battle Royale II: Requiem (2003) - <a href="https://en.wikipedia.org/wiki/Battle_Royale_II:_Requiem" rel="nofollow">Wikipedia</a> - <a href="http://www.imdb.com/title/tt0338763/" rel="nofollow">IMDB</a> - <a href="https://www.rottentomatoes.com/m/battle_royale_ii" rel="nofollow">RT 30%</a> - <a href="https://www.youtube.com/watch?v=ttXNPgmT_8k" rel="nofollow">Youtube Trailer</a></li>
+							<li>Burst City (1982) - <a href="https://en.wikipedia.org/wiki/Burst_City" rel="nofollow">Wikipedia</a> - <a href="http://www.imdb.com/title/tt0083609/" rel="nofollow">IMDB</a> - <a href="http://www.rottentomatoes.com/m/burst_city/" rel="nofollow">RT 58%</a> - <a href="http://www.youtube.com/watch?v=zS4p4ihS0QE" rel="nofollow">Youtube Trailer</a></li>
+							<li>Death Powder (1986) - <a href="https://en.wikipedia.org/wiki/Death_Powder" rel="nofollow">Wikipedia</a> - <a href="http://www.imdb.com/title/tt0223135/" rel="nofollow">IMDB</a> - <a href="http://www.rottentomatoes.com/m/desu-pawuda-death-powder/" rel="nofollow">RT 21%</a> - <a href="http://www.youtube.com/watch?v=uj74GpKCnh4" rel="nofollow">Youtube Trailer</a></li>
+							<li>The Gene Generation (2008) - <a href="https://en.wikipedia.org/wiki/Gene_Generation" rel="nofollow">Wikipedia</a> - <a href="http://www.imdb.com/title/tt0438052/" rel="nofollow">IMDB</a> - <a href="http://www.rottentomatoes.com/m/gene_generation/" rel="nofollow">RT 27%</a> - <a href="http://www.youtube.com/watch?v=bGU8N6X4DNs" rel="nofollow">Youtube Trailer</a></li>
+							<li>Gunhed (1996) - <a href="https://en.wikipedia.org/wiki/Gunhed_(film)" rel="nofollow">Wikipedia</a> - <a href="http://www.imdb.com/title/tt0097410/" rel="nofollow">IMDB</a> - <a href="http://www.rottentomatoes.com/m/gunhed_1996/" rel="nofollow">RT 60%</a> - <a href="http://www.youtube.com/watch?v=cumAfzuUKbc" rel="nofollow">Youtube Trailer</a></li>
+							<li>Kairo (2001) aka Pulse - <a href="https://en.wikipedia.org/wiki/Pulse_(2001_film)" rel="nofollow">Wikipedia</a> - <a href="http://www.imdb.com/title/tt0286751/" rel="nofollow">IMDB</a> - <a href="https://www.rottentomatoes.com/m/pulse_2005" rel="nofollow">RT 74%</a> - <a href="https://www.youtube.com/watch?v=4BEBY-VCKPM" rel="nofollow">Youtube Trailer</a></li>
+							<li>The Machine Girl (2007) - <a href="https://en.wikipedia.org/wiki/The_Machine_Girl" rel="nofollow">Wikipedia</a> - <a href="http://www.imdb.com/title/tt1050160/" rel="nofollow">IMDB</a> - <a href="http://www.rottentomatoes.com/m/machine_girl/" rel="nofollow">RT 63%</a> - <a href="http://www.youtube.com/watch?v=eSpCWJnnWVI" rel="nofollow">Youtube Trailer</a></li>
+							<li>RoboGeisha (2009) - <a href="https://en.wikipedia.org/wiki/RoboGeisha" rel="nofollow">Wikipedia</a> - <a href="http://www.imdb.com/title/tt1381512/%5D%20-%20%5BYoutube%20Trailer%5D(https://www.youtube.com/watch?v=zgrKLjoWcbs" rel="nofollow">IMDB</a></li>
+							<li>Rubber&#39;s Lover (1997) - <a href="https://en.wikipedia.org/wiki/Rubber%27s_Lover" rel="nofollow">Wikipedia</a> - <a href="http://www.imdb.com/title/tt0227408/" rel="nofollow">IMDB</a> - <a href="http://www.rottentomatoes.com/m/rubbers_lover/" rel="nofollow">RT 62%</a> - <a href="http://www.youtube.com/watch?v=j0TOooBQ6uI" rel="nofollow">Youtube Trailer</a></li>
+							<li>Tetsuo: The Iron Man (1989) - <a href="https://en.wikipedia.org/wiki/Tetsuo:_The_Iron_Man" rel="nofollow">Wikipedia</a> - <a href="http://www.imdb.com/title/tt0096251/" rel="nofollow">IMDB</a> - <a href="http://www.rottentomatoes.com/m/tetsuo-the-ironman/" rel="nofollow">RT 77%</a> - <a href="http://www.youtube.com/watch?v=uROMTzJsfOI" rel="nofollow">Youtube Trailer</a></li>
+							<li>Tetsuo II: Body Hammer (1992) - <a href="https://en.wikipedia.org/wiki/Tetsuo_II:_Body_Hammer" rel="nofollow">Wikipedia</a> - <a href="http://www.imdb.com/title/tt0105569/" rel="nofollow">IMDB</a> - <a href="http://www.rottentomatoes.com/m/tetsuo_ii_bodyhammer/" rel="nofollow">RT 60%</a> - <a href="http://www.youtube.com/watch?v=PowBNgdRAGQ" rel="nofollow">Youtube Trailer</a></li>
+							<li>Tetsuo the Bullet Man (2010) - <a href="https://en.wikipedia.org/wiki/Tetsuo:_The_Bullet_Man" rel="nofollow">Wikipedia</a> - <a href="http://www.imdb.com/title/tt1176416/" rel="nofollow">IMDB</a> - <a href="http://www.rottentomatoes.com/m/tetsuo-the-bullet-man/" rel="nofollow">RT 37%</a> - <a href="http://www.youtube.com/watch?v=NMcueuVaqSE" rel="nofollow">Youtube Trailer</a></li>
+						</ul>
+						<br>
+						<h2>Proto-Cyberpunk Movies</h2>
+						<p>These are movies made before Cyberpunk was a thing, but stylistically influenced the genre.</p>
+						<ul>
+							<li>Alphaville (1965) - <a href="https://en.wikipedia.org/wiki/Alphaville_(film)" rel="nofollow">Wikipedia</a> - <a href="http://www.imdb.com/title/tt0058898/" rel="nofollow">IMDB</a> - <a href="https://www.rottentomatoes.com/m/alphaville" rel="nofollow">RT 90%</a> - <a href="https://www.youtube.com/watch?v=CzaATgGHmy0" rel="nofollow">Youtube Trailer</a> - <a href="https://www.criterion.com/films/207-alphaville" rel="nofollow">Criterion</a></li>
+							<li>A Clockwork Orange (1971) - <a href="https://en.wikipedia.org/wiki/A_Clockwork_Orange_(film)" rel="nofollow">Wikipedia</a> - <a href="http://www.imdb.com/title/tt0066921/" rel="nofollow">IMDB</a> - <a href="https://www.rottentomatoes.com/m/clockwork_orange" rel="nofollow">RT 91%</a> - <a href="https://www.youtube.com/watch?v=SPRzm8ibDQ8" rel="nofollow">Youtube Trailer</a></li>
+							<li>Colossus: The Forbin Project (1966) - <a href="https://en.wikipedia.org/wiki/Colossus:_The_Forbin_Project" rel="nofollow">Wikipedia</a> - <a href="http://www.imdb.com/title/tt0064177/" rel="nofollow">IMDB</a> - <a href="https://www.rottentomatoes.com/m/colossus_the_forbin_project" rel="nofollow">RT 88%</a> - <a href="https://www.youtube.com/watch?v=SmSsXoPxi0M" rel="nofollow">Youtube Trailer</a></li>
+							<li>Dark Star (1974) - <a href="https://en.wikipedia.org/wiki/Dark_Star_(film)" rel="nofollow">Wikipedia</a> - <a href="http://www.imdb.com/title/tt0069945" rel="nofollow">IMDB</a> - <a href="https://www.rottentomatoes.com/m/dark_star" rel="nofollow">RT 79%</a> - <a href="https://www.youtube.com/watch?v=IkjiDJUHPHM" rel="nofollow">Youtube Trailer</a></li>
+							<li>Death Race 2000 (1975) - <a href="https://en.wikipedia.org/wiki/Death_Race_2000" rel="nofollow">Wikipedia</a> - <a href="http://www.imdb.com/title/tt0072856/" rel="nofollow">IMDB</a> - <a href="https://www.rottentomatoes.com/m/death_race_2000" rel="nofollow">RT 85%</a> - <a href="https://www.youtube.com/watch?v=F2GEKV1dOgY" rel="nofollow">Youtube Trailer</a></li>
+							<li>Demon Seed (1977) - <a href="https://en.wikipedia.org/wiki/Demon_Seed" rel="nofollow">Wikipedia</a> - <a href="http://www.imdb.com/title/tt0075931/" rel="nofollow">IMDB</a> - <a href="https://www.rottentomatoes.com/m/demon_seed" rel="nofollow">RT 69%</a> - <a href="https://www.youtube.com/watch?v=b4jWyyhyxSg" rel="nofollow">Youtube Trailer</a></li>
+							<li>Future Shock (1972) - <a href="https://en.wikipedia.org/wiki/Future_Shock_(film)" rel="nofollow">Wikipedia</a> - <a href="http://www.imdb.com/title/tt0826713/" rel="nofollow">IMDB</a> - RT N/A - <a href="https://www.youtube.com/watch?v=fkUwXenBokU" rel="nofollow">Youtube Full Movie</a></li>
+							<li>Futureworld (1976) - <a href="https://en.wikipedia.org/wiki/Futureworld" rel="nofollow">Wikipedia</a> - <a href="http://www.imdb.com/title/tt0074559/" rel="nofollow">IMDB</a> - <a href="https://www.rottentomatoes.com/m/futureworld" rel="nofollow">RT 33%</a> - <a href="https://www.youtube.com/watch?v=lTMtu4Z5T-U" rel="nofollow">Youtube Trailer</a></li>
+							<li>La Jetee (1962) - <a href="https://en.wikipedia.org/wiki/La_Jet%C3%A9e" rel="nofollow">Wikipedia</a> - <a href="http://www.imdb.com/title/tt0056119" rel="nofollow">IMDB</a> - <a href="https://www.rottentomatoes.com/m/la_jetee" rel="nofollow">RT 92%</a> - <a href="https://www.youtube.com/watch?v=aLfXCkFQtXw" rel="nofollow">Youtube Full Movie</a> - <a href="https://www.criterion.com/films/329-la-jetee" rel="nofollow">Criterion</a></li>
+							<li>Metropolis (1927) - <a href="https://en.wikipedia.org/wiki/Metropolis_(film)" rel="nofollow">Wikipedia</a> - <a href="http://www.imdb.com/title/tt0017136/" rel="nofollow">IMDB</a> - <a href="http://www.rottentomatoes.com/m/1013775-metropolis/" rel="nofollow">RT 99%</a> - <a href="http://www.youtube.com/watch?v=ZSExdX0tds4" rel="nofollow">Youtube Trailer</a></li>
+							<li>Giorgio Moroder Presents Metropolis (1984) - <a href="https://en.wikipedia.org/wiki/Metropolis_(1927_film)" rel="nofollow">Wikipedia</a> - <a href="http://www.imdb.com/title/tt0017136/" rel="nofollow">IMDB</a> - <a href="http://www.rottentomatoes.com/m/giorgio_moroders_metropolis/" rel="nofollow">RT 68%</a> - <a href="http://www.youtube.com/watch?v=leAVS0OC6Ts" rel="nofollow">Youtube Trailer</a></li>
+							<li>Soylent Green (1973) - <a href="https://en.wikipedia.org/wiki/Soylent_Green" rel="nofollow">Wikipedia</a> - <a href="http://www.imdb.com/title/tt0070723/" rel="nofollow">IMDB</a> - <a href="https://www.rottentomatoes.com/m/soylent_green" rel="nofollow">RT 71%</a> - <a href="https://www.youtube.com/watch?v=N_jGOKYHxaQ" rel="nofollow">Youtube Trailer</a></li>
+							<li>The Terminal Man (1974) - <a href="https://en.wikipedia.org/wiki/The_Terminal_Man_(film)" rel="nofollow">Wikipedia</a> - <a href="http://www.imdb.com/title/tt0072267" rel="nofollow">IMDB</a> - <a href="https://www.rottentomatoes.com/m/terminal_man" rel="nofollow">RT 58%</a> - <a href="https://www.youtube.com/watch?v=hycWql3cXKg" rel="nofollow">Youtube Trailer</a></li>
+							<li>THX-1138 (1971) - <a href="https://en.wikipedia.org/wiki/THX_1138" rel="nofollow">Wikipedia</a> - <a href="http://www.imdb.com/title/tt0066434/" rel="nofollow">IMDB</a> - <a href="https://www.rottentomatoes.com/m/thx_1138" rel="nofollow">RT 88%</a> - <a href="https://www.youtube.com/watch?v=eHgqfVQWv7s" rel="nofollow">Youtube Trailer</a></li>
+							<li>Westworld (1973) - <a href="https://en.wikipedia.org/wiki/Westworld_(film)" rel="nofollow">Wikipedia</a> - <a href="http://www.imdb.com/title/tt0070909/" rel="nofollow">IMDB</a> - <a href="https://www.rottentomatoes.com/m/westworld" rel="nofollow">RT 86%</a> - <a href="https://www.youtube.com/watch?v=EjyOfTEeNHA" rel="nofollow">Youtube Trailer</a></li>
+							<li>World on a Wire (1973) - <a href="https://en.wikipedia.org/wiki/World_on_a_Wire" rel="nofollow">Wikipedia</a> - <a href="http://www.imdb.com/title/tt0070904/" rel="nofollow">IMDB</a> - <a href="http://www.rottentomatoes.com/m/world_on_a_wire/" rel="nofollow">RT 100%</a> - <a href="http://www.youtube.com/watch?v=YvlQ8TQsmQA" rel="nofollow">Youtube Trailer</a> - <a href="https://www.criterion.com/films/27742-world-on-a-wire" rel="nofollow">Criterion</a></li>
+						</ul>
+						<br>
+						<h2>Hacker Movies</h2>
+						<p>Movies set in the present day but with computer hacking as theme/plot device.</p>
+						<ul>
+							<li>23 (1998) - <a href="https://en.wikipedia.org/wiki/23_(film)" rel="nofollow">Wikipedia</a> - <a href="http://www.imdb.com/title/tt0126765/" rel="nofollow">IMDB</a> - <a href="https://www.rottentomatoes.com/m/23" rel="nofollow">RT 78%</a> - <a href="https://www.youtube.com/watch?v=be_uVIM8tyM" rel="nofollow">Youtube Trailer</a></li>
+							<li>Algorithm (2014) - No Wikipedia - <a href="http://www.imdb.com/title/tt3293462/" rel="nofollow">IMDB</a> - No RT - <a href="https://www.youtube.com/watch?v=dwhjGKLNOS8" rel="nofollow">Youtube Trailer</a></li>
+							<li>Antitrust (2001) - <a href="https://en.wikipedia.org/wiki/Antitrust_(film)" rel="nofollow">Wikipedia</a> - <a href="http://www.imdb.com/title/tt0218817/" rel="nofollow">IMDB</a> - <a href="http://www.rottentomatoes.com/m/antitrust/" rel="nofollow">RT 24%</a> - <a href="http://www.youtube.com/watch?v=eS1EOjO9sgw" rel="nofollow">Youtube Trailer</a></li>
+							<li>Arcade (1993) - <a href="https://en.wikipedia.org/wiki/Arcade_(film)" rel="nofollow">Wikipedia</a> - <a href="http://www.imdb.com/title/tt0106302/" rel="nofollow">IMDB</a> - <a href="http://www.rottentomatoes.com/m/arcade/" rel="nofollow">RT 37%</a> - <a href="http://www.youtube.com/watch?v=td-AV8E19TQ" rel="nofollow">Youtube Trailer</a></li>
+							<li>Blackhat (2015) - <a href="https://en.wikipedia.org/wiki/Blackhat_(film)" rel="nofollow">Wikipedia</a> - <a href="http://www.imdb.com/title/tt2717822/" rel="nofollow">IMDB</a> - <a href="https://www.rottentomatoes.com/m/blackhat" rel="nofollow">RT 33%</a> - <a href="https://www.youtube.com/watch?v=jZ1ZDlLImF8" rel="nofollow">Youtube Trailer</a></li>
+							<li>Brainscan (1994) - <a href="https://en.wikipedia.org/wiki/Brainscan" rel="nofollow">Wikipedia</a> - <a href="http://www.imdb.com/title/tt0109327/" rel="nofollow">IMDB</a> - <a href="http://www.rottentomatoes.com/m/brainscan/" rel="nofollow">RT 20%</a> - <a href="http://www.youtube.com/watch?v=QaRbBSeLkj4" rel="nofollow">Youtube Trailer</a></li>
+							<li>The Circle (2017) - <a href="https://en.wikipedia.org/wiki/The_Circle_(2017_film)" rel="nofollow">Wikipedia</a> - <a href="http://www.imdb.com/title/tt4287320/" rel="nofollow">IMDB</a> - <a href="https://www.rottentomatoes.com/m/the_circle_2017" rel="nofollow">RT 16%</a> - <a href="https://www.youtube.com/watch?v=2C9tKfl8t0Y" rel="nofollow">Youtube Trailer</a></li>
+							<li>Computer Chess (2013) - <a href="https://en.wikipedia.org/wiki/Computer_Chess_(film)" rel="nofollow">Wikipedia</a> - <a href="http://www.imdb.com/title/tt2007360/" rel="nofollow">IMDB</a> - <a href="https://www.rottentomatoes.com/m/computer_chess_2013" rel="nofollow">RT 87%</a> - <a href="https://www.youtube.com/watch?v=NuGT_L13bQ8" rel="nofollow">Youtube Trailer</a></li>
+							<li>Control Alt Delete (2008) - <a href="https://en.wikipedia.org/wiki/Control_Alt_Delete_(film)" rel="nofollow">Wikipedia</a> - <a href="http://www.imdb.com/title/tt1031224/" rel="nofollow">IMDB</a> - <a href="https://www.rottentomatoes.com/m/control_alt_delete_2008" rel="nofollow">RT 33%</a> - <a href="https://www.youtube.com/watch?v=fiwLTqxRyJk" rel="nofollow">Youtube Trailer</a></li>
+							<li>Die Hard 4 (2007) - <a href="https://en.wikipedia.org/wiki/Die_Hard_4" rel="nofollow">Wikipedia</a> - <a href="http://www.imdb.com/title/tt0337978/" rel="nofollow">IMDB</a> - <a href="http://www.rottentomatoes.com/m/live_free_or_die_hard/" rel="nofollow">RT 81%</a> - <a href="http://www.youtube.com/watch?v=M-E3bCim0hg" rel="nofollow">Youtube Trailer</a></li>
+							<li>Disclosure (1994) - <a href="https://en.wikipedia.org/wiki/Disclosure_(film)" rel="nofollow">Wikipedia</a> - <a href="http://www.imdb.com/title/tt0109635/" rel="nofollow">IMDB</a> - <a href="https://www.rottentomatoes.com/m/disclosure" rel="nofollow">RT 59%</a> - <a href="https://www.youtube.com/watch?v=34WwXUlx7E4" rel="nofollow">Youtube Trailer</a></li>
+							<li>Eagle Eye (2008) - <a href="https://en.wikipedia.org/wiki/Eagle_Eye" rel="nofollow">Wikipedia</a> - <a href="http://www.imdb.com/title/tt1059786/" rel="nofollow">IMDB</a> - <a href="https://www.rottentomatoes.com/m/eagle_eye" rel="nofollow">RT 27%</a> - <a href="https://www.youtube.com/watch?v=olRdPXwiSjk" rel="nofollow">Youtube Trailer</a></li>
+							<li>Echelon Conspiracy (2009) - <a href="https://en.wikipedia.org/wiki/Echelon_Conspiracy" rel="nofollow">Wikipedia</a> - <a href="http://www.imdb.com/title/tt1124039/" rel="nofollow">IMDB</a> - <a href="https://www.rottentomatoes.com/m/echelon_conspiracy" rel="nofollow">RT %</a> - <a href="https://www.youtube.com/watch?v=gNmnVoc0SyQ" rel="nofollow">Youtube Trailer</a></li>
+							<li>Electric Dreams (1984) - <a href="https://en.wikipedia.org/wiki/Electric_Dreams_(film)" rel="nofollow">Wikipedia</a> - <a href="http://www.imdb.com/title/tt0087197/" rel="nofollow">IMDB</a> - <a href="http://www.rottentomatoes.com/m/1006510-electric_dreams/" rel="nofollow">RT 40%</a> - <a href="http://www.youtube.com/watch?v=Ek08KvgqFGM" rel="nofollow">Youtube Trailer</a></li>
+							<li>Enemy of the State (1998) - <a href="https://en.wikipedia.org/wiki/Enemy_of_the_State_(film)" rel="nofollow">Wikipedia</a> - <a href="http://www.imdb.com/title/tt0120660/" rel="nofollow">IMDB</a> - <a href="https://www.rottentomatoes.com/m/enemy_of_the_state" rel="nofollow">RT 71%</a> - <a href="https://www.youtube.com/watch?v=AoNT6u3mQew" rel="nofollow">Youtube Trailer</a></li>
+							<li>Firewall (2006) - <a href="https://en.wikipedia.org/wiki/Firewall_(film)" rel="nofollow">Wikipedia</a> - <a href="http://www.imdb.com/title/tt0408345/" rel="nofollow">IMDB</a> - <a href="http://www.rottentomatoes.com/m/firewall/" rel="nofollow">RT 19%</a> - <a href="http://www.youtube.com/watch?v=w96aZhrK28w" rel="nofollow">Youtube Trailer</a></li>
+							<li>The Fifth Estate (2013) - <a href="https://en.wikipedia.org/wiki/The_Fifth_Estate_(film)" rel="nofollow">Wikipedia</a> - <a href="http://www.imdb.com/title/tt1837703/" rel="nofollow">IMDB</a> - <a href="https://www.rottentomatoes.com/m/the_fifth_estate" rel="nofollow">RT 37%</a> - <a href="https://www.youtube.com/watch?v=ZT1wb8_tcYU" rel="nofollow">Youtube Trailer</a></li>
+							<li>Ghost in the Machine (1993) - <a href="https://en.wikipedia.org/wiki/Ghost_in_the_Machine_(film)" rel="nofollow">Wikipedia</a> - <a href="http://www.imdb.com/title/tt0107009/" rel="nofollow">IMDB</a> - <a href="http://www.rottentomatoes.com/m/ghost_in_the_machine/" rel="nofollow">RT 13%</a> - <a href="http://www.youtube.com/watch?v=o2HPq-WDnFQ" rel="nofollow">Youtube Trailer</a></li>
+							<li>The Girl with the Dragon Tattoo (2009) - <a href="https://en.wikipedia.org/wiki/The_Girl_with_the_Dragon_Tattoo_(2009_film)" rel="nofollow">Wikipedia</a> - <a href="http://www.imdb.com/title/tt1132620/" rel="nofollow">IMDB</a> - <a href="https://www.rottentomatoes.com/m/the_girl_with_the_dragon_tattoo_2009" rel="nofollow">RT 86%</a> - <a href="https://www.youtube.com/watch?v=SmqpA_ckFcw" rel="nofollow">Youtube Trailer</a></li>
+							<li>The Girl Who Played With Fire (2009) - <a href="https://en.wikipedia.org/wiki/The_Girl_Who_Played_with_Fire_(film)" rel="nofollow">Wikipedia</a> - <a href="http://www.imdb.com/title/tt1216487/" rel="nofollow">IMDB</a> - <a href="https://www.rottentomatoes.com/m/girl_who_played_with_fire" rel="nofollow">RT 69%</a> - <a href="https://www.youtube.com/watch?v=oSsodK7KFXQ" rel="nofollow">Youtube Trailer</a></li>
+							<li>The Girl Who Kicked the Hornet&#39;s Nest (2009) - <a href="https://en.wikipedia.org/wiki/The_Girl_Who_Kicked_the_Hornets%27_Nest_(film)" rel="nofollow">Wikipedia</a> - <a href="http://www.imdb.com/title/tt1343097/" rel="nofollow">IMDB</a> - <a href="https://www.rottentomatoes.com/m/the_girl_who_kicked_the_hornets_nest" rel="nofollow">RT 53%</a> - <a href="https://www.youtube.com/watch?v=vVGbPFdU96A" rel="nofollow">Youtube Trailer</a></li>
+							<li>The Girl with the Dragon Tattoo (2011) - <a href="https://en.wikipedia.org/wiki/The_Girl_with_the_Dragon_Tattoo_(2011_film)" rel="nofollow">Wikipedia</a> - <a href="http://www.imdb.com/title/tt1568346/" rel="nofollow">IMDB</a> - <a href="https://www.rottentomatoes.com/m/the_girl_with_the_dragon_tattoo" rel="nofollow">RT 86%</a> - <a href="https://www.youtube.com/watch?v=DqQe3OrsMKI" rel="nofollow">Youtube Trailer</a></li>
+							<li>Hacker (2016) - no Wikipedia - <a href="http://www.imdb.com/title/tt3173594/" rel="nofollow">IMDB</a> - <a href="https://www.rottentomatoes.com/m/anonymous_2016" rel="nofollow">RT 46%</a> - <a href="https://www.youtube.com/watch?v=y8HsD9qmTiY" rel="nofollow">Youtube Trailer</a></li>
+							<li>Hackers (1995) - <a href="https://en.wikipedia.org/wiki/Hackers_(film)" rel="nofollow">Wikipedia</a> - <a href="http://www.imdb.com/title/tt0113243/" rel="nofollow">IMDB</a> - <a href="http://www.rottentomatoes.com/m/hackers/" rel="nofollow">RT 34%</a> - <a href="http://www.youtube.com/watch?v=Ql1uLyuWra8" rel="nofollow">Youtube Trailer</a></li>
+							<li>Hacker&#39;s Game (2015) - no Wikipedia - <a href="http://www.imdb.com/title/tt3140724/" rel="nofollow">IMDB</a> - <a href="https://www.rottentomatoes.com/m/hackers_game" rel="nofollow">RT 14%</a> - <a href="https://www.youtube.com/watch?v=5NLgJh0FuNo" rel="nofollow">Youtube Trailer</a></li>
+							<li>I.T. (2016) - <a href="https://en.wikipedia.org/wiki/I.T._(film)" rel="nofollow">Wikipedia</a> - <a href="http://www.imdb.com/title/tt2679552/" rel="nofollow">IMDB</a> - <a href="https://www.rottentomatoes.com/m/it_2016" rel="nofollow">RT 10%</a> - <a href="https://www.youtube.com/watch?v=hfnDTvbtDUI" rel="nofollow">Youtube Trailer</a></li>
+							<li>The Imitation Game (2014) - <a href="https://en.wikipedia.org/wiki/The_Imitation_Game" rel="nofollow">Wikipedia</a> - <a href="http://www.imdb.com/title/tt2084970/" rel="nofollow">IMDB</a> - <a href="https://www.rottentomatoes.com/m/the_imitation_game" rel="nofollow">RT 91%</a> - <a href="https://www.youtube.com/watch?v=S5CjKEFb-sM" rel="nofollow">Youtube Trailer</a></li>
+							<li>The Italian Job (1969) - <a href="https://en.wikipedia.org/wiki/The_Italian_Job" rel="nofollow">Wikipedia</a> - <a href="http://www.imdb.com/title/tt0064505/" rel="nofollow">IMDB</a> - <a href="https://www.rottentomatoes.com/m/1038613_italian_job?" rel="nofollow">RT 84%</a> - <a href="https://www.youtube.com/watch?v=Z0uN32GV1_c" rel="nofollow">Youtube Trailer</a></li>
+							<li>The Italian Job (2003) - <a href="https://en.wikipedia.org/wiki/The_Italian_Job_(2003_film)" rel="nofollow">Wikipedia</a> - <a href="http://www.imdb.com/title/tt0317740/" rel="nofollow">IMDB</a> - <a href="https://www.rottentomatoes.com/m/italian_job" rel="nofollow">RT 73%</a> - <a href="https://www.youtube.com/watch?v=5Eyw-Qiwpj0" rel="nofollow">Youtube Trailer</a></li>
+							<li>Jumpin&#39; Jack Flash (1986) - <a href="https://en.wikipedia.org/wiki/Jumpin%27_Jack_Flash_(film)" rel="nofollow">Wikipedia</a> - <a href="http://www.imdb.com/title/tt0091306/" rel="nofollow">IMDB</a> - <a href="https://www.rottentomatoes.com/m/jumpin_jack_flash" rel="nofollow">RT 28%</a> - <a href="https://www.youtube.com/watch?v=ak1AHhLU9c0" rel="nofollow">Youtube Trailer</a></li>
+							<li>Masterminds (1997) - <a href="https://en.wikipedia.org/wiki/Masterminds_(film)" rel="nofollow">Wikipedia</a> - <a href="http://www.imdb.com/title/tt0119630/" rel="nofollow">IMDB</a> - <a href="http://www.rottentomatoes.com/m/masterminds/" rel="nofollow">RT 47%</a> - <a href="http://www.youtube.com/watch?v=tpWi8dRYZFU" rel="nofollow">Youtube Trailer</a></li>
+							<li>Nerve (2016) - <a href="https://en.wikipedia.org/wiki/Nerve_(2016_film)" rel="nofollow">Wikipedia</a> - <a href="http://www.imdb.com/title/tt3531824/" rel="nofollow">IMDB</a> - <a href="https://www.rottentomatoes.com/m/nerve_2016" rel="nofollow">RT 66%</a> - <a href="https://www.youtube.com/watch?v=AX1BTiHzq-I" rel="nofollow">Youtube Trailer</a></li>
+							<li>The Net (1995) - <a href="https://en.wikipedia.org/wiki/The_Net_(1995_film)" rel="nofollow">Wikipedia</a> - <a href="http://www.imdb.com/title/tt0113957/" rel="nofollow">IMDB</a> - <a href="http://www.rottentomatoes.com/m/net/" rel="nofollow">RT 36%</a> - <a href="http://www.youtube.com/watch?v=46qKHq7REI4" rel="nofollow">Youtube Trailer</a></li>
+							<li>The Net 2.0 (2006) - <a href="https://en.wikipedia.org/wiki/The_Net_2.0" rel="nofollow">Wikipedia</a> - <a href="http://www.imdb.com/title/tt0434231/" rel="nofollow">IMDB</a> - <a href="http://www.rottentomatoes.com/m/net_20/" rel="nofollow">RT 39%</a> - <a href="http://www.youtube.com/watch?v=n8BILrzUC4k" rel="nofollow">Youtube Trailer</a></li>
+							<li>Netforce (1999) - <a href="https://en.wikipedia.org/wiki/NetForce_(film)" rel="nofollow">Wikipedia</a> - <a href="http://www.imdb.com/title/tt0158423/" rel="nofollow">IMDB</a> - <a href="https://www.rottentomatoes.com/m/tom_clancys_netforce" rel="nofollow">RT 35%</a> - <a href="https://www.youtube.com/watch?v=DOIiuPpONBs" rel="nofollow">Youtube Trailer</a></li>
+							<li>Nicotina (2003) - <a href="https://en.wikipedia.org/wiki/Nicotina" rel="nofollow">Wikipedia</a> - <a href="http://www.imdb.com/title/tt0337930/" rel="nofollow">IMDB</a> - <a href="https://www.rottentomatoes.com/m/nicotina" rel="nofollow">RT 45%</a> - <a href="https://www.youtube.com/watch?v=e0Kd_SyVSlI" rel="nofollow">Youtube Trailer</a></li>
+							<li>Office Space (1999) - <a href="https://en.wikipedia.org/wiki/Office_Space" rel="nofollow">Wikipedia</a> - <a href="http://www.imdb.com/title/tt0151804/" rel="nofollow">IMDB</a> - <a href="https://www.rottentomatoes.com/m/office_space" rel="nofollow">RT 79%</a> - <a href="https://www.youtube.com/watch?v=dMIrlP61Z9s" rel="nofollow">Youtube Trailer</a></li>
+							<li>Open Windows (2014) - <a href="https://en.wikipedia.org/wiki/Open_Windows_(film)" rel="nofollow">Wikipedia</a> - <a href="http://www.imdb.com/title/tt2409818/" rel="nofollow">IMDB</a> - <a href="https://www.rottentomatoes.com/m/open_windows_2013" rel="nofollow">RT 39%</a> - <a href="https://www.youtube.com/watch?v=_Qz7DDvTA-I" rel="nofollow">Youtube Trailer</a></li>
+							<li>Paranoia 1.0 (2004) aka One Point O - <a href="https://en.wikipedia.org/wiki/Paranoia_1.0" rel="nofollow">Wikipedia</a> - <a href="http://www.imdb.com/title/tt0317042/" rel="nofollow">IMDB</a> - <a href="https://www.rottentomatoes.com/m/one_point_o_2004" rel="nofollow">RT 67%</a> - <a href="https://www.youtube.com/watch?v=rw3V_VnRoaA" rel="nofollow">Youtube Trailer</a></li>
+							<li>Pi (1998) - <a href="https://en.wikipedia.org/wiki/Pi_(film)" rel="nofollow">Wikipedia</a> - <a href="http://www.imdb.com/title/tt0138704/" rel="nofollow">IMDB</a> - <a href="http://www.rottentomatoes.com/m/pi/" rel="nofollow">RT 87%</a> - <a href="http://www.youtube.com/watch?v=jo18VIoR2xU" rel="nofollow">Youtube Trailer</a></li>
+							<li>Pirates of Silicon Valley (1999) - <a href="https://en.wikipedia.org/wiki/Pirates_of_Silicon_Valley" rel="nofollow">Wikipedia</a> - <a href="http://www.imdb.com/title/tt0168122/" rel="nofollow">IMDB</a> - <a href="http://www.rottentomatoes.com/m/pirates_of_silicon_valley/" rel="nofollow">RT 86%</a> - <a href="http://www.youtube.com/watch?v=lEyrivrjAuU" rel="nofollow">Youtube Trailer</a></li>
+							<li>Prime Risk (1985) - <a href="https://en.wikipedia.org/wiki/Prime_Risk" rel="nofollow">Wikipedia</a> - <a href="http://www.imdb.com/title/tt0087942/" rel="nofollow">IMDB</a> - <a href="https://www.rottentomatoes.com/m/prime_risk" rel="nofollow">RT 17%</a> - <a href="https://www.youtube.com/watch?v=-N7mJcEXiUc" rel="nofollow">Youtube Trailer</a></li>
+							<li>Reboot (2012) - no Wikipedia - <a href="http://www.imdb.com/title/tt2090594/" rel="nofollow">IMDB</a> - no RT - <a href="https://www.youtube.com/watch?v=4qro5M6u99A" rel="nofollow">Youtube Trailer</a></li>
+							<li>The Score (2001) - <a href="https://en.wikipedia.org/wiki/The_Score_(2001_film)" rel="nofollow">Wikipedia</a> - <a href="http://www.imdb.com/title/tt0227445/" rel="nofollow">IMDB</a> - <a href="https://www.rottentomatoes.com/m/1108799_score?" rel="nofollow">RT 73%</a> - <a href="https://www.youtube.com/watch?v=AiN6-UdxcbI" rel="nofollow">Youtube Trailer</a></li>
+							<li>Sneakers (1992) - <a href="https://en.wikipedia.org/wiki/Sneakers_(1992_film)" rel="nofollow">Wikipedia</a> - <a href="http://www.imdb.com/title/tt0105435/" rel="nofollow">IMDB</a> - <a href="http://www.rottentomatoes.com/m/sneakers/" rel="nofollow">RT 81%</a> - <a href="http://www.youtube.com/watch?v=rbJpx_6fYgE" rel="nofollow">Youtube Trailer</a></li>
+							<li>Snowden (2016) - <a href="https://en.wikipedia.org/wiki/Snowden_(film)" rel="nofollow">Wikipedia</a> - <a href="http://www.imdb.com/title/tt3774114/" rel="nofollow">IMDB</a> - <a href="https://www.rottentomatoes.com/m/snowden" rel="nofollow">RT 61%</a> - <a href="https://www.youtube.com/watch?v=QlSAiI3xMh4" rel="nofollow">Youtube Trailer</a></li>
+							<li>The Social Network (2010) - <a href="https://en.wikipedia.org/wiki/The_Social_Network" rel="nofollow">Wikipedia</a> - <a href="http://www.imdb.com/title/tt1285016/" rel="nofollow">IMDB</a> - <a href="http://www.rottentomatoes.com/m/the-social-network/" rel="nofollow">RT 96%</a> - <a href="http://www.youtube.com/watch?v=lB95KLmpLR4" rel="nofollow">Youtube Trailer</a></li>
+							<li>Swordfish (2001) - <a href="https://en.wikipedia.org/wiki/Swordfish_(film)" rel="nofollow">Wikipedia</a> - <a href="http://www.imdb.com/title/tt0244244/" rel="nofollow">IMDB</a> - <a href="http://www.rottentomatoes.com/m/swordfish/" rel="nofollow">RT 26%</a> - <a href="http://www.youtube.com/watch?v=4sOhZ_nBa0w" rel="nofollow">Youtube Trailer</a></li>
+							<li>Takedown/Track Down (2000) - <a href="https://en.wikipedia.org/wiki/Track_Down" rel="nofollow">Wikipedia</a> - <a href="http://www.imdb.com/title/tt0159784/" rel="nofollow">IMDB</a> - <a href="http://www.rottentomatoes.com/m/takedown_2000/" rel="nofollow">RT 33%</a> - <a href="http://www.youtube.com/watch?v=2Kdpiaqx7KI" rel="nofollow">Youtube Trailer</a></li>
+							<li>Terminal Entry (1987) - <a href="https://en.wikipedia.org/wiki/Terminal_Entry" rel="nofollow">Wikipedia</a> - <a href="http://www.imdb.com/title/tt0092069/" rel="nofollow">IMDB</a> - <a href="http://www.rottentomatoes.com/m/terminal_entry/" rel="nofollow">RT 29%</a> - <a href="http://www.youtube.com/watch?v=dd8ENvj9f_I" rel="nofollow">Youtube Trailer</a></li>
+							<li>Untraceable (2008) - <a href="https://en.wikipedia.org/wiki/Untraceable" rel="nofollow">Wikipedia</a> - <a href="http://www.imdb.com/title/tt0880578/" rel="nofollow">IMDB</a> - <a href="http://www.rottentomatoes.com/m/10008954-untraceable/" rel="nofollow">RT 16%</a> - <a href="http://www.youtube.com/watch?v=oIqnESZW0qc" rel="nofollow">Youtube Trailer</a></li>
+							<li>Underground: The Julian Assange Story (2012) - <a href="https://en.wikipedia.org/wiki/Underground:_The_Julian_Assange_Story" rel="nofollow">Wikipedia</a> - <a href="http://www.imdb.com/title/tt2357453/" rel="nofollow">IMDB</a> - <a href="https://www.rottentomatoes.com/m/underground_the_julian_assange_story" rel="nofollow">RT 38%</a> - <a href="https://www.youtube.com/watch?v=1ujDD2LpSRg" rel="nofollow">Youtube Trailer</a></li>
+							<li>Wargames (1983) - <a href="https://en.wikipedia.org/wiki/WarGames" rel="nofollow">Wikipedia</a> - <a href="http://www.imdb.com/title/tt0086567/" rel="nofollow">IMDB</a> - <a href="http://www.rottentomatoes.com/m/wargames/" rel="nofollow">RT 97%</a> - <a href="http://www.youtube.com/watch?v=tAcEzhQ7oqA" rel="nofollow">Youtube Trailer</a></li>
+							<li>Wargames: The Dead Code (2008) - <a href="https://en.wikipedia.org/wiki/WarGames:_The_Dead_Code" rel="nofollow">Wikipedia</a> - <a href="http://www.imdb.com/title/tt0865957/" rel="nofollow">IMDB</a> - <a href="http://www.rottentomatoes.com/m/wargames-the-dead-code/" rel="nofollow">RT 29%</a> - <a href="http://www.youtube.com/watch?v=IK0v1T4KS4Q" rel="nofollow">Youtube Trailer</a></li>
+							<li>Webmaster (1998) aka Skyggen - <a href="https://en.wikipedia.org/wiki/Skyggen_(film)" rel="nofollow">Wikipedia</a> - <a href="http://www.imdb.com/title/tt0136535/" rel="nofollow">IMDB</a> - <a href="http://www.rottentomatoes.com/m/webmaster_1998/" rel="nofollow">RT 25%</a> - <a href="http://www.youtube.com/watch?v=DvdOYwyVfd8" rel="nofollow">Youtube Trailer</a></li>
+							<li>Who Am I (2014) - <a href="https://en.wikipedia.org/wiki/Who_Am_I_(2014_film)" rel="nofollow">Wikipedia</a> - <a href="http://www.imdb.com/title/tt3042408/" rel="nofollow">IMDB</a> - <a href="https://www.rottentomatoes.com/m/who_am_i_kein_system_ist_sicher" rel="nofollow">RT 73%</a> - <a href="https://www.youtube.com/watch?v=5vnjheCqRIs" rel="nofollow">Youtube Trailer</a></li>
+						</ul>
+						<br>
+						<h2>Documentaries</h2>
+						<ul>
+							<li>BBS: The Documentary (2005) - <a href="https://en.wikipedia.org/wiki/BBS:_The_Documentary" rel="nofollow">Wikipedia</a> - <a href="http://www.imdb.com/title/tt0460402/" rel="nofollow">IMDB</a> - <a href="https://www.rottentomatoes.com/m/bbs_the_documentary?" rel="nofollow">RT</a> - <a href="https://www.youtube.com/watch?v=q0leB34fkq0" rel="nofollow">Youtube Trailer</a> - <a href="https://archive.org/details/BBS.The.Documentary" rel="nofollow">archive.org full movie</a></li>
+							<li>Cyberpunk (1990) - <a href="http://www.imdb.com/title/tt0398910/" rel="nofollow">IMDB</a> - <a href="http://www.rottentomatoes.com/m/cyberpunk/" rel="nofollow">RT no rating</a> - <a href="http://www.youtube.com/watch?v=wbp6G8do2_E" rel="nofollow">Youtube Full Movie</a></li>
+							<li>Citizenfour (2014) - <a href="https://en.wikipedia.org/wiki/Citizenfour" rel="nofollow">Wikipedia</a> - <a href="http://www.imdb.com/title/tt4044364/" rel="nofollow">IMDB</a> - <a href="https://www.rottentomatoes.com/m/citizenfour" rel="nofollow">RT 96%</a> - <a href="https://www.youtube.com/watch?v=XiGwAvd5mvM" rel="nofollow">Youtube Trailer</a></li>
+							<li>The Code (2001) - <a href="https://en.wikipedia.org/wiki/The_Code_(2001_film)" rel="nofollow">Wikipedia</a> - <a href="http://www.imdb.com/title/tt0315417/" rel="nofollow">IMDB</a> - no RT - <a href="https://www.youtube.com/watch?v=XMm0HsmOTFI" rel="nofollow">Youtube full movie</a></li>
+							<li>Code 2600 (2011) - no Wikipedia - <a href="http://www.imdb.com/title/tt1830538/" rel="nofollow">IMDB</a> - <a href="https://www.rottentomatoes.com/m/code_2600_2012" rel="nofollow">RT</a> - <a href="https://www.youtube.com/watch?v=gXwIYrsW9Bk" rel="nofollow">Youtube Trailer</a></li>
+							<li>Dangerous Days: The Making of Blade Runner (2007) - <a href="https://en.wikipedia.org/wiki/Blade_Runner#Dangerous_Days" rel="nofollow">Wikipedia</a> - <a href="http://www.imdb.com/title/tt1080585" rel="nofollow">IMDB</a> - <a href="https://www.rottentomatoes.com/m/dangerous_days_making_blade_runnerdangerous_days?" rel="nofollow">RT 92%</a> - <a href="https://www.youtube.com/watch?v=NyWYC-1aVMw" rel="nofollow">Youtube Trailer</a></li>
+							<li>Dark Star: HR Giger&#39;s World (2015)- <a href="https://en.wikipedia.org/wiki/Dark_Star:_H._R._Giger%27s_World" rel="nofollow">Wikipedia</a> - <a href="http://www.imdb.com/title/tt4074502/" rel="nofollow">IMDB</a> - <a href="https://www.rottentomatoes.com/m/dark_star_hr_gigers_world_2015" rel="nofollow">RT 67%</a> - <a href="https://www.youtube.com/watch?v=YnRSzZ7WHKU" rel="nofollow">Youtube Trailer</a></li>
+							<li>Deep Web (2015) - <a href="https://en.wikipedia.org/wiki/Deep_Web_(film)" rel="nofollow">Wikipedia</a> - <a href="http://www.imdb.com/title/tt3312868/" rel="nofollow">IMDB</a> - <a href="https://www.rottentomatoes.com/m/deep_web" rel="nofollow">RT 82%</a> - <a href="https://www.youtube.com/watch?v=BvC9oDlT8mM" rel="nofollow">Youtube Trailer</a></li>
+							<li>Defcon: The Documentary (2013) - <a href="https://en.wikipedia.org/wiki/Jason_Scott#Filmography" rel="nofollow">Wikipedia</a> - <a href="http://www.imdb.com/title/tt3010462/" rel="nofollow">IMDB</a> - <a href="https://www.rottentomatoes.com/m/defcon_the_documentary" rel="nofollow">RT</a> - <a href="https://www.defcon.org/html/links/dc-torrent.html" rel="nofollow">defcon.org</a> - <a href="https://www.youtube.com/watch?v=3ctQOmjQyYg" rel="nofollow">YouTube</a></li>
+							<li>Down the Deep, Dark Web (2016) - no Wikipedia - <a href="http://www.imdb.com/title/tt5596398/" rel="nofollow">IMDB</a> - no RT - <a href="https://www.youtube.com/watch?v=PWrXoippwP0" rel="nofollow">Youtube Trailer</a></li>
+							<li>Downloaded (2013) - <a href="https://en.wikipedia.org/wiki/Downloaded_(film)" rel="nofollow">Wikipedia</a> - <a href="http://www.imdb.com/title/tt2033981/" rel="nofollow">IMDB</a> - <a href="https://www.rottentomatoes.com/m/downloaded_2013" rel="nofollow">RT 67%</a> - <a href="https://www.youtube.com/watch?v=h7YnjPGIeKY" rel="nofollow">Youtube Trailer</a></li>
+							<li>DSKNECTD (2013) - <a href="https://en.wikipedia.org/wiki/DSKNECTD" rel="nofollow">Wikipedia</a> - <a href="http://www.imdb.com/title/tt2417174/" rel="nofollow">IMDB</a> - <a href="https://www.rottentomatoes.com/m/dsknectd" rel="nofollow">RT 67%</a> - <a href="https://www.youtube.com/watch?v=ANvdF4B0AIU" rel="nofollow">Youtube Trailer</a></li>
+							<li>e-Dreams (2002) - <a href="https://en.wikipedia.org/wiki/E-Dreams" rel="nofollow">Wikipedia</a> - <a href="http://www.imdb.com/title/tt0262021/" rel="nofollow">IMDB</a> - <a href="https://www.rottentomatoes.com/m/e_dreams" rel="nofollow">RT 60%</a> - <a href="https://www.youtube.com/watch?v=gZG-Tdc31Vs" rel="nofollow">Youtube Trailer</a></li>
+							<li>Freedom Downtime (2001) - <a href="https://en.wikipedia.org/wiki/Freedom_Downtime" rel="nofollow">Wikipedia</a> - <a href="http://www.imdb.com/title/tt0309614/" rel="nofollow">IMDB</a> - <a href="https://www.rottentomatoes.com/m/freedom_downtime?" rel="nofollow">RT 79%</a> - <a href="https://www.youtube.com/watch?v=77ILA5Cso3w" rel="nofollow">Youtube Trailer</a></li>
+							<li>Good Copy Bad Copy (2007) - <a href="https://en.wikipedia.org/wiki/Good_Copy_Bad_Copy" rel="nofollow">Wikipedia</a> - <a href="http://www.imdb.com/title/tt1782451/" rel="nofollow">IMDB</a> - no RT - <a href="https://www.youtube.com/watch?v=QPFyLtZRp64" rel="nofollow">Youtube Trailer</a></li>
+							<li>The Hacker Wars (2014) - <a href="https://en.wikipedia.org/wiki/The_Hacker_Wars" rel="nofollow">Wikipedia</a> - <a href="http://www.imdb.com/title/tt4047350/" rel="nofollow">IMDB</a> - <a href="https://www.rottentomatoes.com/m/the_hacker_wars" rel="nofollow">RT 73%</a> - <a href="https://www.youtube.com/watch?v=UkgMsvBmjwU" rel="nofollow">Youtube Trailer</a></li>
+							<li>Hackers: Wizards of the Elctronic Age (1985) - <a href="https://en.wikipedia.org/wiki/Hackers:_Wizards_of_the_Electronic_Age" rel="nofollow">Wikipedia</a> - <a href="http://www.imdb.com/title/tt1191116/" rel="nofollow">IMDB</a> - no RT - <a href="https://www.youtube.com/watch?v=zOP1LNr70aU" rel="nofollow">Youtube full movie</a></li>
+							<li>Hackers Are People Too (2008) - <a href="https://en.wikipedia.org/wiki/Hackers_Are_People_Too" rel="nofollow">Wikipedia</a> - <a href="http://www.imdb.com/title/tt1279942/" rel="nofollow">IMDB</a> - <a href="https://www.rottentomatoes.com/m/hackers_are_people_too?" rel="nofollow">RT 63%</a> - <a href="https://www.youtube.com/watch?v=x3lrhCuofqw" rel="nofollow">Youtube Trailer</a></li>
+							<li>Hackers in Wonderland (2000) - <a href="https://en.wikipedia.org/wiki/Hackers_in_Wonderland" rel="nofollow">Wikipedia</a> - <a href="http://www.imdb.com/title/tt5341822/" rel="nofollow">IMDB</a> - no RT - <a href="https://www.youtube.com/watch?v=FDQ3bps42fI" rel="nofollow">Youtube Trailer</a></li>
+							<li>Hackers Wanted (2010) - <a href="https://en.wikipedia.org/wiki/Hackers_Wanted" rel="nofollow">Wikipedia</a> - <a href="http://www.imdb.com/title/tt2292707/" rel="nofollow">IMDB</a> - no RT - <a href="https://www.youtube.com/watch?v=vSBzKEdSPMY" rel="nofollow">Youtube Full Movie</a></li>
+							<li>Hacking Democracy (2006) - <a href="https://en.wikipedia.org/wiki/Hacking_Democracy" rel="nofollow">Wikipedia</a> - <a href="http://www.imdb.com/title/tt0808532/" rel="nofollow">IMDB</a> - <a href="https://www.rottentomatoes.com/m/hacking_democracy" rel="nofollow">RT 83%</a> - <a href="https://www.youtube.com/watch?v=vx1vxPFXIiw" rel="nofollow">Youtube Trailer</a></li>
+							<li>HyperNormalisation (2016) - <a href="https://en.wikipedia.org/wiki/HyperNormalisation" rel="nofollow">Wikipedia</a> - <a href="http://www.imdb.com/title/tt6156350/" rel="nofollow">IMDB</a> - <a href="https://www.rottentomatoes.com/m/hypernormalisation" rel="nofollow">RT 80%</a> - <a href="https://www.youtube.com/watch?v=nz6u7xRznjY" rel="nofollow">Youtube Trailer</a></li>
+							<li>In the Realm of Hackers (2003) - <a href="https://en.wikipedia.org/wiki/In_the_Realm_of_the_Hackers" rel="nofollow">Wikipedia</a> - <a href="http://www.imdb.com/title/tt1199631/" rel="nofollow">IMDB</a> - no RT - <a href="https://www.youtube.com/watch?v=KmIDluvVZ2M" rel="nofollow">Youtube Full Movie</a></li>
+							<li>The Internet&#39;s Own Boy (2014) - <a href="https://en.wikipedia.org/wiki/The_Internet%27s_Own_Boy" rel="nofollow">Wikipedia</a> - <a href="http://www.imdb.com/title/tt3268458" rel="nofollow">IMDB</a> - <a href="https://www.rottentomatoes.com/m/the_internets_own_boy_the_story_of_aaron_swartz" rel="nofollow">RT 93%</a> - <a href="https://www.youtube.com/watch?v=RvsxnOg0bJY" rel="nofollow">Youtube Trailer</a></li>
+							<li>Kim Dotcom: Caught in the Web (2017) - <a href="https://en.wikipedia.org/wiki/Kim_Dotcom#Other_activities" rel="nofollow">Wikipedia</a> - <a href="http://www.imdb.com/title/tt3640710/" rel="nofollow">IMDB</a> - <a href="https://www.rottentomatoes.com/m/kim_dotcom_caught_in_the_web_2017" rel="nofollow">RT 55%</a> - <a href="https://www.youtube.com/watch?v=M8iTRn8GUWc" rel="nofollow">Youtube Trailer</a></li>
+							<li>Lo and Behold, Reveries of the Connected World (2016) - <a href="https://en.wikipedia.org/wiki/Lo_and_Behold,_Reveries_of_the_Connected_World" rel="nofollow">Wikipedia</a> - <a href="http://www.imdb.com/title/tt5275828/" rel="nofollow">IMDB</a> - <a href="https://www.rottentomatoes.com/m/lo_and_behold_reveries_of_the_connected_world" rel="nofollow">RT 94%</a> - <a href="https://www.youtube.com/watch?v=Zc1tZ8JsZvg" rel="nofollow">Youtube Trailer</a></li>
+							<li>The Net: The Unabomber, LSD and the Internet (2003) - <a href="https://en.wikipedia.org/wiki/Das_Netz" rel="nofollow">Wikipedia</a> - <a href="http://www.imdb.com/title/tt0434231/" rel="nofollow">IMDB</a> - <a href="https://www.rottentomatoes.com/m/net_the_unabomber_lsd_and_the_internet" rel="nofollow">RT</a> - <a href="https://www.youtube.com/watch?v=t2Q6XQ26NLI" rel="nofollow">Youtube Trailer</a></li>
+							<li>No Maps for These Territories (2000) - <a href="https://en.wikipedia.org/wiki/No_Maps_for_These_Territories" rel="nofollow">Wikipedia</a> - <a href="http://www.imdb.com/title/tt0269629/" rel="nofollow">IMDB</a> - <a href="http://www.rottentomatoes.com/m/william_gibson_no_maps_for_these_territories/" rel="nofollow">RT 64%</a> - <a href="http://www.youtube.com/watch?v=poQwVguZeBg" rel="nofollow">Youtube Trailer</a> - <a href="http://archive.org/details/NoMapsForTheseTerritories" rel="nofollow">Archive.org</a></li>
+							<li>Plug &amp; Pray (2010) - <a href="https://en.wikipedia.org/wiki/Plug_%26_Pray" rel="nofollow">Wikipedia</a> - <a href="http://www.imdb.com/title/tt1692889/" rel="nofollow">IMDB</a> - <a href="https://www.rottentomatoes.com/m/plug_and_prey" rel="nofollow">RT 83%</a> - <a href="https://www.youtube.com/watch?v=LfSqBMwyhU4" rel="nofollow">Youtube Trailer</a></li>
+							<li>Revolution OS (2001) - <a href="https://en.wikipedia.org/wiki/Revolution_OS" rel="nofollow">Wikipedia</a> - <a href="http://www.imdb.com/title/tt0308808/" rel="nofollow">IMDB</a> - <a href="https://www.rottentomatoes.com/m/revolution_os" rel="nofollow">RT 43%</a> - <a href="https://www.youtube.com/watch?v=NrI-0u4npGo" rel="nofollow">Youtube Trailer</a></li>
+							<li>Rise of the Hackers (2014) - no Wikipedia - <a href="http://www.imdb.com/title/tt3979842/" rel="nofollow">IMDB</a> - no RT - <a href="https://www.youtube.com/watch?v=JAAzsis7-X4" rel="nofollow">Youtube Trailer</a></li>
+							<li>The Secret History of Hacking (2001) - <a href="https://en.wikipedia.org/wiki/The_Secret_History_of_Hacking" rel="nofollow">Wikipedia</a>- <a href="http://www.imdb.com/title/tt2335921/" rel="nofollow">IMDB</a> - no RT - <a href="https://www.youtube.com/watch?v=PUf1d-GuK0Q" rel="nofollow">Youtube Full Movie</a></li>
+							<li>Silk Road: Drugs, Death and the Dark Web (2017) - no Wikipedia - <a href="http://www.imdb.com/title/tt7301126/" rel="nofollow">IMDB</a> - no RT - <a href="https://www.youtube.com/watch?v=H5eT8eA1Ra0" rel="nofollow">Youtube full movie</a></li>
+							<li>The Singularity (2012) - <a href="https://en.wikipedia.org/wiki/The_Singularity_(film)" rel="nofollow">Wikipedia</a> - <a href="http://www.imdb.com/title/tt2073120/" rel="nofollow">IMDB</a> - <a href="https://www.rottentomatoes.com/m/the_singularity" rel="nofollow">RT</a> - <a href="https://www.youtube.com/watch?v=ShC_QlcR9Cg" rel="nofollow">Youtube Trailer</a></li>
+							<li>Softwaring Hard (2014) - no Wikipedia - <a href="http://www.imdb.com/title/tt3063636/" rel="nofollow">IMDB</a> - no RT - <a href="https://www.youtube.com/watch?v=0UXrfBUaItU" rel="nofollow">Youtube Trailer</a></li>
+							<li>Steal This Film (2006) - <a href="https://en.wikipedia.org/wiki/Steal_This_Film" rel="nofollow">Wikipedia</a> - <a href="http://www.imdb.com/title/tt1422757/" rel="nofollow">IMDB</a> - no RT - <a href="https://www.youtube.com/watch?v=Ijo98_nUhrk" rel="nofollow">Youtube Full Movie</a></li>
+							<li>TPB AFK (2013) - <a href="https://en.wikipedia.org/wiki/TPB_AFK" rel="nofollow">Wikipedia</a> - <a href="http://www.imdb.com/title/tt2608732/" rel="nofollow">IMDB</a> - <a href="https://www.rottentomatoes.com/m/tpb_afk_the_pirate_bay_away_from_keyboard_2013" rel="nofollow">RT 67%</a> - <a href="https://www.youtube.com/watch?v=G6qcJt2NPY8" rel="nofollow">Youtube Trailer</a></li>
+							<li>Terms and Conditions May Apply (2013) - <a href="https://en.wikipedia.org/wiki/Terms_and_Conditions_May_Apply" rel="nofollow">Wikipedia</a> - <a href="http://www.imdb.com/title/tt2084953/" rel="nofollow">IMDB</a> - <a href="https://www.rottentomatoes.com/m/terms_and_conditions_may_apply" rel="nofollow">RT 86%</a> - <a href="https://www.youtube.com/watch?v=yzyafieRcWE" rel="nofollow">Youtube Trailer</a></li>
+							<li>Traceroute (2016) - <a href="https://en.wikipedia.org/wiki/Traceroute_(film)" rel="nofollow">Wikipedia</a> - <a href="http://www.imdb.com/title/tt4490762/" rel="nofollow">IMDB</a> - <a href="https://www.rottentomatoes.com/m/traceroute" rel="nofollow">RT 82%</a> - <a href="https://www.youtube.com/watch?v=-Ma6ZhVTbH8" rel="nofollow">Youtube Trailer</a></li>
+							<li>The Truth According to Wikipedia (2008) - <a href="https://en.wikipedia.org/wiki/The_Truth_According_to_Wikipedia" rel="nofollow">Wikipedia</a> - <a href="http://www.imdb.com/title/tt1783069/" rel="nofollow">IMDB</a> - no RT - <a href="https://www.youtube.com/watch?v=rmjWVZby6aI" rel="nofollow">Youtube Full Movie</a></li>
+							<li>War for the Web (2015) - no Wikipedia - <a href="http://www.imdb.com/title/tt2390367/" rel="nofollow">IMDB</a> - <a href="https://www.rottentomatoes.com/m/war_for_the_web" rel="nofollow">RT</a> - <a href="https://www.youtube.com/watch?v=aVwN5d2W7gg" rel="nofollow">Youtube Trailer</a></li>
+							<li>We Are Legion: The Story of the Hacktivists (2012) - <a href="https://en.wikipedia.org/wiki/We_Are_Legion" rel="nofollow">Wikipedia</a> - <a href="http://www.imdb.com/title/tt2177843" rel="nofollow">IMDB</a> - <a href="https://www.rottentomatoes.com/m/we_are_legion_the_story_of_the_hacktivists" rel="nofollow">RT 73%</a> - <a href="https://www.youtube.com/watch?v=gn9-80ObGA8" rel="nofollow">Youtube Trailer</a></li>
+							<li>William S. Burroughs: A Man Within (2010) - <a href="https://en.wikipedia.org/wiki/William_S._Burroughs:_A_Man_Within" rel="nofollow">Wikipedia</a> - <a href="http://www.imdb.com/title/tt1466072" rel="nofollow">IMDB</a> - <a href="https://www.rottentomatoes.com/m/william_s_burroughs_a_man_within?" rel="nofollow">RT 88%</a> - <a href="https://www.youtube.com/watch?v=vYQhh5Cn7fo" rel="nofollow">Youtube Trailer</a></li>
+							<li>Zero Days (2016) - <a href="https://en.wikipedia.org/wiki/Zero_Days" rel="nofollow">Wikipedia</a> - <a href="http://www.imdb.com/title/tt5446858/" rel="nofollow">IMDB</a> - <a href="https://www.rottentomatoes.com/m/zero_days" rel="nofollow">RT 91%</a> - <a href="https://www.youtube.com/watch?v=C8lj45IL5J4" rel="nofollow">Youtube Trailer</a></li>
+						</ul>
+						<br>
+						<h2>Related and of Interest</h2>
+						<p>Not strictly Cyberpunk, but these movies are often loved by cyberpunk fans or influenced cyberpunk fiction.</p>
+						<ul>
+							<li>12 Monkeys (1995) - <a href="https://en.wikipedia.org/wiki/12_Monkeys" rel="nofollow">Wikipedia</a> - <a href="http://www.imdb.com/title/tt0114746/" rel="nofollow">IMDB</a> - <a href="https://www.rottentomatoes.com/m/12_monkeys" rel="nofollow">RT 88%</a> - <a href="https://www.youtube.com/watch?v=15s4Y9ffW_o" rel="nofollow">Youtube Trailer</a></li>
+							<li>A.I. Artificial Intelligence (2001) - <a href="https://en.wikipedia.org/wiki/A.I._Artificial_Intelligence" rel="nofollow">Wikipedia</a> - <a href="http://www.imdb.com/title/tt0212720/" rel="nofollow">IMDB</a> - <a href="https://www.rottentomatoes.com/m/ai_artificial_intelligence" rel="nofollow">RT 73%</a> - <a href="https://www.youtube.com/watch?v=_19pRsZRiz4" rel="nofollow">Youtube Trailer</a></li>
+							<li>Altered States (1980) - <a href="https://en.wikipedia.org/wiki/Altered_States" rel="nofollow">Wikipedia</a> - <a href="http://www.imdb.com/title/tt0080360" rel="nofollow">IMDB</a> - <a href="https://www.rottentomatoes.com/m/altered_states" rel="nofollow">RT 86%</a> - <a href="https://www.youtube.com/watch?v=67lYG7a4YOA" rel="nofollow">Youtube Trailer</a></li>
+							<li>A Better Tomorrow (1986) - <a href="https://en.wikipedia.org/wiki/A_Better_Tomorrow" rel="nofollow">Wikipedia</a> - <a href="http://www.imdb.com/title/tt0092263/" rel="nofollow">IMDB</a> - <a href="https://www.rottentomatoes.com/m/better_tomorrow" rel="nofollow">RT 93%</a> - <a href="https://www.youtube.com/watch?v=M7ZBsUf986E" rel="nofollow">Youtube Trailer</a></li>
+							<li>A Better Tomorrow II (1987) - <a href="https://en.wikipedia.org/wiki/A_Better_Tomorrow_II" rel="nofollow">Wikipedia</a> - <a href="http://www.imdb.com/title/tt0094357/" rel="nofollow">IMDB</a> - <a href="https://www.rottentomatoes.com/m/better_tomorrow_ii" rel="nofollow">RT 80%</a> - <a href="https://www.youtube.com/watch?v=Xp-VDwhtg4c" rel="nofollow">Youtube Trailer</a></li>
+							<li>Beyond the Black Rainbow (2012) - <a href="https://en.wikipedia.org/wiki/Beyond_the_Black_Rainbow" rel="nofollow">Wikipedia</a> - <a href="http://www.imdb.com/title/tt1534085/" rel="nofollow">IMDB</a> - <a href="https://www.rottentomatoes.com/m/beyond_the_black_rainbow_2012" rel="nofollow">RT 52%</a> - <a href="https://www.youtube.com/watch?v=nWF0bBKhe6o" rel="nofollow">Youtube Trailer</a></li>
+							<li>Bicentennial Man (1999) - <a href="https://en.wikipedia.org/wiki/Bicentennial_Man_(film)" rel="nofollow">Wikipedia</a> - <a href="http://www.imdb.com/title/tt0182789/" rel="nofollow">IMDB</a> - <a href="https://www.rottentomatoes.com/m/bicentennial_man" rel="nofollow">RT 37%</a> - <a href="https://www.youtube.com/watch?v=nZ7HxlhVDyM" rel="nofollow">Youtube Trailer</a></li>
+							<li>Black Rain (1989) - <a href="https://en.wikipedia.org/wiki/Black_Rain" rel="nofollow">Wikipedia</a> - <a href="http://www.imdb.com/title/tt0096933/" rel="nofollow">IMDB</a> - <a href="https://www.rottentomatoes.com/m/1002512_black_rain?" rel="nofollow">RT 52%</a> - <a href="https://www.youtube.com/watch?v=95-bc1DZovg" rel="nofollow">Youtube Trailer</a></li>
+							<li>Bomb the System (2002) - <a href="https://en.wikipedia.org/wiki/Bomb_the_System" rel="nofollow">Wikipedia</a> - <a href="http://www.imdb.com/title/tt0337585/" rel="nofollow">IMDB</a> - <a href="https://www.rottentomatoes.com/m/1151490_bomb_the_system?" rel="nofollow">RT 32%</a> - <a href="https://www.youtube.com/watch?v=g1qd5nFWdm4" rel="nofollow">Youtube Trailer</a></li>
+							<li>Bullet Ballet (1998) - <a href="https://en.wikipedia.org/wiki/Bullet_Ballet" rel="nofollow">Wikipedia</a> - <a href="http://www.imdb.com/title/tt0163563/" rel="nofollow">IMDB</a> - <a href="https://www.rottentomatoes.com/m/1141062_bullet_ballet?" rel="nofollow">RT 75%</a> - <a href="https://www.youtube.com/watch?v=t0TI8YAkz60" rel="nofollow">Youtube Trailer</a></li>
+							<li>Catfish (2010) - <a href="https://en.wikipedia.org/wiki/Catfish_(film)" rel="nofollow">Wikipedia</a> - <a href="http://www.imdb.com/title/tt1584016/" rel="nofollow">IMDB</a> - <a href="https://www.rottentomatoes.com/m/catfish" rel="nofollow">RT 80%</a> - <a href="https://www.youtube.com/watch?v=BuE98oeL-e0" rel="nofollow">Youtube Trailer</a></li>
+							<li>Children of Men (2007) - <a href="https://en.wikipedia.org/wiki/Children_of_Men" rel="nofollow">Wikipedia</a> - <a href="http://www.imdb.com/title/tt0206634/" rel="nofollow">IMDB</a> - <a href="https://www.rottentomatoes.com/m/children_of_men" rel="nofollow">RT 92%</a> - <a href="https://www.youtube.com/watch?v=2VT2apoX90o" rel="nofollow">Youtube Trailer</a></li>
+							<li>The City of Lost Children (1995) - <a href="https://en.wikipedia.org/wiki/The_City_of_Lost_Children" rel="nofollow">Wikipedia</a> - <a href="http://www.imdb.com/title/tt0112682/" rel="nofollow">IMDB</a> - <a href="https://www.rottentomatoes.com/m/city_of_lost_children" rel="nofollow">RT 80%</a> - <a href="https://www.youtube.com/watch?v=Pa7oVPru4J8" rel="nofollow">Youtube Trailer</a></li>
+							<li>Decoder (1984) - <a href="https://en.wikipedia.org/wiki/Decoder_(film)" rel="nofollow">Wikipedia</a> - <a href="http://www.imdb.com/title/tt0087129/" rel="nofollow">IMDB</a> - <a href="https://www.rottentomatoes.com/m/decoder_1984" rel="nofollow">RT 57%</a> - <a href="https://www.youtube.com/watch?v=-Vu2ySzInU8" rel="nofollow">Youtube Trailer</a></li>
+							<li>Demolition Man (1993) - <a href="https://en.wikipedia.org/wiki/Demolition_Man_(film)" rel="nofollow">Wikipedia</a> - <a href="http://www.imdb.com/title/tt0106697" rel="nofollow">IMDB</a> - <a href="https://www.rottentomatoes.com/m/demolition_man" rel="nofollow">RT 62%</a> - <a href="https://www.youtube.com/watch?v=ViwrF2Y4nX8" rel="nofollow">Youtube Trailer</a></li>
+							<li>Disconnect (2012) - <a href="https://en.wikipedia.org/wiki/Disconnect_(film)" rel="nofollow">Wikipedia</a> - <a href="http://www.imdb.com/title/tt1433811/" rel="nofollow">IMDB</a> - <a href="https://www.rottentomatoes.com/m/disconnect_2013" rel="nofollow">RT 67%</a> - <a href="https://www.youtube.com/watch?v=aqCcQOlDM4o" rel="nofollow">Youtube Trailer</a></li>
+							<li>District 9 (2009) - <a href="https://en.wikipedia.org/wiki/District_9" rel="nofollow">Wikipedia</a> - <a href="http://www.imdb.com/title/tt1136608" rel="nofollow">IMDB</a> - <a href="https://www.rottentomatoes.com/m/district_9" rel="nofollow">RT 90%</a> - <a href="https://www.youtube.com/watch?v=DyLUwOcR5pk" rel="nofollow">Youtube Trailer</a></li>
+							<li>District B13 (2004) - <a href="https://en.wikipedia.org/wiki/District_13" rel="nofollow">Wikipedia</a> - <a href="http://www.imdb.com/title/tt0414852" rel="nofollow">IMDB</a> - <a href="https://www.rottentomatoes.com/m/district_b13" rel="nofollow">RT 80%</a> - <a href="https://www.youtube.com/watch?v=Mcmkx1klOpE" rel="nofollow">Youtube Trailer</a></li>
+							<li>Dopamine (2003) - <a href="https://en.wikipedia.org/wiki/Dopamine_(film)" rel="nofollow">Wikipedia</a> - <a href="http://www.imdb.com/title/tt0342300/" rel="nofollow">IMDB</a> - <a href="https://www.rottentomatoes.com/m/dopamine" rel="nofollow">RT 51%</a> - <a href="https://www.youtube.com/watch?v=wnZb88UG_NM" rel="nofollow">Youtube Trailer</a></li>
+							<li>Eve of Destruction (1991) - <a href="https://en.wikipedia.org/wiki/Eve_of_Destruction_(film)" rel="nofollow">Wikipedia</a> - <a href="http://www.imdb.com/title/tt0101831/" rel="nofollow">IMDB</a> - <a href="https://www.rottentomatoes.com/m/eve_of_destruction_1990" rel="nofollow">RT 10%</a> - <a href="https://www.youtube.com/watch?v=_sARb0uQvpI" rel="nofollow">Youtube Trailer</a></li>
+							<li>Fight Club (1999) - <a href="https://en.wikipedia.org/wiki/Fight_Club" rel="nofollow">Wikipedia</a> - <a href="http://www.imdb.com/title/tt0137523/" rel="nofollow">IMDB</a> - <a href="https://www.rottentomatoes.com/m/fight_club" rel="nofollow">RT 79%</a> - <a href="https://www.youtube.com/watch?v=SUXWAEX2jlg" rel="nofollow">Youtube Trailer</a></li>
+							<li>Hard Boiled (1992) - <a href="https://en.wikipedia.org/wiki/Hard_Boiled" rel="nofollow">Wikipedia</a> - <a href="http://www.imdb.com/title/tt0104684" rel="nofollow">IMDB</a> - <a href="https://www.rottentomatoes.com/m/hard_boiled" rel="nofollow">RT 94%</a> - <a href="https://www.youtube.com/watch?v=jAtxZHuJNW4" rel="nofollow">Youtube Trailer</a> - <a href="https://www.criterion.com/films/523-hard-boiled" rel="nofollow">Criterion</a></li>
+							<li>Hanna (2011) - <a href="https://en.wikipedia.org/wiki/Hanna_(film)" rel="nofollow">Wikipedia</a> - <a href="http://www.imdb.com/title/tt0993842/" rel="nofollow">IMDB</a> - <a href="https://www.rottentomatoes.com/m/hanna" rel="nofollow">RT 71%</a> - <a href="https://www.youtube.com/watch?v=u73CLdHpbNk" rel="nofollow">Youtube Trailer</a></li>
+							<li>Her (2013) - <a href="https://en.wikipedia.org/wiki/Her_(film)" rel="nofollow">Wikipedia</a> - <a href="http://www.imdb.com/title/tt1798709/" rel="nofollow">IMDB</a> - <a href="https://www.rottentomatoes.com/m/her" rel="nofollow">RT 94%</a> - <a href="https://www.youtube.com/watch?v=WzV6mXIOVl4" rel="nofollow">Youtube Trailer</a></li>
+							<li>High Rise (2016) - <a href="https://en.wikipedia.org/wiki/High-Rise_(film)" rel="nofollow">Wikipedia</a> - <a href="http://www.imdb.com/title/tt0462335/" rel="nofollow">IMDB</a> - <a href="http://www.imdb.com/title/tt0462335/%%5D(https://www.rottentomatoes.com/m/high_rise_2016" rel="nofollow">RT 60%</a> - <a href="https://www.youtube.com/watch?v=e4pujABeKuA" rel="nofollow">Youtube Trailer</a></li>
+							<li>iBoy (2017) - <a href="https://en.wikipedia.org/wiki/IBoy" rel="nofollow">Wikipedia</a> - <a href="http://www.imdb.com/title/tt3171832/" rel="nofollow">IMDB</a> - <a href="https://www.rottentomatoes.com/m/iboy" rel="nofollow">RT 60%</a> - <a href="https://www.youtube.com/watch?v=FbEWtpSmJXg" rel="nofollow">Youtube Trailer</a></li>
+							<li>Inception (2010) - <a href="https://en.wikipedia.org/wiki/Inception" rel="nofollow">Wikipedia</a> - <a href="http://www.imdb.com/title/tt1375666" rel="nofollow">IMDB</a> - <a href="https://www.rottentomatoes.com/m/inception" rel="nofollow">RT 86%</a> - <a href="https://www.youtube.com/watch?v=YoHD9XEInc0" rel="nofollow">Youtube Trailer</a></li>
+							<li>I&#39;m a Cyborg, but That&#39;s Ok (2008) - <a href="https://en.wikipedia.org/wiki/I%27m_a_Cyborg,_But_That%27s_OK" rel="nofollow">Wikipedia</a> - <a href="http://www.imdb.com/title/tt0497137/" rel="nofollow">IMDB</a> - <a href="http://www.rottentomatoes.com/m/im_a_cyborg_but_thats_ok/" rel="nofollow">RT 90%</a> - <a href="http://www.youtube.com/watch?v=1KaOLDZe2GI" rel="nofollow">Youtube Trailer</a></li>
+							<li>Liquid Sky (1983) - <a href="https://en.wikipedia.org/wiki/Liquid_Sky" rel="nofollow">Wikipedia</a> - <a href="http://www.imdb.com/title/tt0085852" rel="nofollow">IMDB</a> - <a href="https://www.rottentomatoes.com/m/liquid_sky" rel="nofollow">RT 94%</a> - <a href="https://www.youtube.com/watch?v=S9-n9gpFVpk" rel="nofollow">Youtube Trailer</a></li>
+							<li>The Killer (1989) - <a href="https://en.wikipedia.org/wiki/The_Killer_(1989_film)" rel="nofollow">Wikipedia</a> - <a href="http://www.imdb.com/title/tt0097202/" rel="nofollow">IMDB</a> - <a href="https://www.rottentomatoes.com/m/1032434_killer?" rel="nofollow">RT 98%</a> - <a href="https://www.youtube.com/watch?v=dEBAcWUf_ag" rel="nofollow">Youtube Trailer</a> - <a href="https://www.criterion.com/films/231-the-killer" rel="nofollow">Criterion</a></li>
+							<li>The Machine (2013) - <a href="https://en.wikipedia.org/wiki/The_Machine_(film)" rel="nofollow">Wikipedia</a> - <a href="http://www.imdb.com/title/tt2317225/" rel="nofollow">IMDB</a> - <a href="https://www.rottentomatoes.com/m/the_machine_2013" rel="nofollow">RT 79%</a> - <a href="https://www.youtube.com/watch?v=e9oa93BrNuw" rel="nofollow">Youtube Trailer</a></li>
+							<li>Mad Max (1979) - <a href="https://en.wikipedia.org/wiki/Mad_Max" rel="nofollow">Wikipedia</a> - <a href="http://www.imdb.com/title/tt0079501" rel="nofollow">IMDB</a> - <a href="https://www.rottentomatoes.com/m/mad_max" rel="nofollow">RT 90%</a> - <a href="https://www.youtube.com/watch?v=ti6rG4NmsyM" rel="nofollow">Youtube Trailer</a></li>
+							<li>Mad Max: Fury Road (2015) - <a href="https://en.wikipedia.org/wiki/Mad_Max:_Fury_Road" rel="nofollow">Wikipedia</a> - <a href="http://www.imdb.com/title/tt1392190/" rel="nofollow">IMDB</a> - <a href="https://www.rottentomatoes.com/m/mad_max_fury_road" rel="nofollow">RT 97%</a> - <a href="https://www.youtube.com/watch?v=hEJnMQG9ev8" rel="nofollow">Youtube Trailer</a></li>
+							<li>Moon (2009) - <a href="https://en.wikipedia.org/wiki/Moon_(film)" rel="nofollow">Wikipedia</a> - <a href="http://www.imdb.com/title/tt1182345" rel="nofollow">IMDB</a> - <a href="https://www.rottentomatoes.com/m/10009075_moon?" rel="nofollow">RT 89%</a> - <a href="https://www.youtube.com/watch?v=WWoDBcSW4_c" rel="nofollow">Youtube Trailer</a></li>
+							<li>Morgan (2016) - <a href="https://en.wikipedia.org/wiki/Morgan_(2016_film)" rel="nofollow">Wikipedia</a> - <a href="http://www.imdb.com/title/tt4520364/" rel="nofollow">IMDB</a> - <a href="https://www.rottentomatoes.com/m/morgan_2016" rel="nofollow">RT 39%</a> - <a href="https://www.youtube.com/watch?v=rqmHSR0bFU8" rel="nofollow">Youtube Trailer</a></li>
+							<li>Primer (2004) - <a href="https://en.wikipedia.org/wiki/Primer_(film)" rel="nofollow">Wikipedia</a> - <a href="http://www.imdb.com/title/tt0390384/" rel="nofollow">IMDB</a> - <a href="https://www.rottentomatoes.com/m/primer" rel="nofollow">RT 72%</a> - <a href="https://www.youtube.com/watch?v=3nj5MMURCm8" rel="nofollow">Youtube Trailer</a></li>
+							<li>Pulse (2006) - <a href="https://en.wikipedia.org/wiki/Pulse_(2006_film)" rel="nofollow">Wikipedia</a> - <a href="http://www.imdb.com/title/tt0454919/" rel="nofollow">IMDB</a> - <a href="https://www.rottentomatoes.com/m/pulse" rel="nofollow">RT 10%</a> - <a href="https://www.youtube.com/watch?v=spyTqeP8i7c" rel="nofollow">Youtube Trailer</a></li>
+							<li>Repo Man (1984) - <a href="https://en.wikipedia.org/wiki/Repo_Man_(film)" rel="nofollow">Wikipedia</a> - <a href="http://www.imdb.com/title/tt0087995" rel="nofollow">IMDB</a> - <a href="https://www.rottentomatoes.com/m/repo_man" rel="nofollow">RT 98%</a> - <a href="https://www.youtube.com/watch?v=DLGrXGEMOSo" rel="nofollow">Youtube Trailer</a> - <a href="https://www.criterion.com/films/28051-repo-man" rel="nofollow">Criterion</a></li>
+							<li>The Road Warrior (1981) - <a href="https://en.wikipedia.org/wiki/Mad_Max_2" rel="nofollow">Wikipedia</a> - <a href="http://www.imdb.com/title/tt0082694" rel="nofollow">IMDB</a> - <a href="https://www.rottentomatoes.com/m/mad_max_2_the_road_warrior" rel="nofollow">RT 98%</a> - <a href="https://www.youtube.com/watch?v=UlwtiOyaoo0" rel="nofollow">Youtube Trailer</a></li>
+							<li>Robot &amp; Frank (2012) - <a href="https://en.wikipedia.org/wiki/Robot_%26_Frank" rel="nofollow">Wikipedia</a> - <a href="http://www.imdb.com/title/tt1990314/" rel="nofollow">IMDB</a> - <a href="https://www.rottentomatoes.com/m/robot_and_frank" rel="nofollow">RT 87%</a> - <a href="https://www.youtube.com/watch?v=Hi9s-__B0TY" rel="nofollow">Youtube Trailer</a></li>
+							<li>Run Lola Run (1998) - <a href="https://en.wikipedia.org/wiki/Run_Lola_Run" rel="nofollow">Wikipedia</a> - <a href="http://www.imdb.com/title/tt0130827/" rel="nofollow">IMDB</a> - <a href="https://www.rottentomatoes.com/m/run_lola_run" rel="nofollow">RT 93%</a> - <a href="https://www.youtube.com/watch?v=uz2-D4lY2qg" rel="nofollow">Youtube Trailer</a></li>
+							<li>The Signal (2014) - <a href="https://en.wikipedia.org/wiki/The_Signal_(2014_film" rel="nofollow">Wikipedia</a>) - <a href="http://www.imdb.com/title/tt2910814/" rel="nofollow">IMDB</a> - <a href="https://www.rottentomatoes.com/m/the_signal_2014" rel="nofollow">RT 60%</a> - <a href="https://www.youtube.com/watch?v=gwgfeR2pMuE" rel="nofollow">Youtube Trailer</a></li>
+							<li>A Snake of June (2002) - <a href="https://en.wikipedia.org/wiki/A_Snake_of_June" rel="nofollow">Wikipedia</a> - <a href="http://www.imdb.com/title/tt0330904/" rel="nofollow">IMDB</a> - <a href="https://www.rottentomatoes.com/m/1140009_snake_of_june?" rel="nofollow">RT 60%</a> - <a href="https://www.youtube.com/watch?v=qteh1L1QAYY" rel="nofollow">Youtube Trailer</a></li>
+							<li>Source Code (2011) - <a href="https://en.wikipedia.org/wiki/Source_Code" rel="nofollow">Wikipedia</a> - <a href="http://www.imdb.com/title/tt0945513/" rel="nofollow">IMDB</a> - <a href="https://www.rottentomatoes.com/m/source_code" rel="nofollow">RT 91%</a> - <a href="https://www.youtube.com/watch?v=DiBVUulE_wo" rel="nofollow">Youtube Trailer</a></li>
+							<li>Southland Tales (2006) - <a href="https://en.wikipedia.org/wiki/Southland_Tales" rel="nofollow">Wikipedia</a> - <a href="http://www.imdb.com/title/tt0405336" rel="nofollow">IMDB</a> - <a href="https://www.rottentomatoes.com/m/southland_tales" rel="nofollow">RT 38%</a> - <a href="https://www.youtube.com/watch?v=_jBa0GBTEis" rel="nofollow">Youtube Trailer</a></li>
+							<li>The Thing (1982) - <a href="https://en.wikipedia.org/wiki/The_Thing_(1982_film)" rel="nofollow">Wikipedia</a> - <a href="http://www.imdb.com/title/tt0084787" rel="nofollow">IMDB</a> - <a href="https://www.rottentomatoes.com/m/1021244_thing?" rel="nofollow">RT 83%</a> - <a href="https://www.youtube.com/watch?v=p35JDJLa9ec" rel="nofollow">Youtube Trailer</a></li>
+							<li>Tokyo Fist (1995) - <a href="https://en.wikipedia.org/wiki/Tokyo_Fist" rel="nofollow">Wikipedia</a> - <a href="http://www.imdb.com/title/tt0114690" rel="nofollow">IMDB</a> - <a href="https://www.rottentomatoes.com/m/tokyo_fist_1998" rel="nofollow">RT 75%</a> - <a href="https://www.youtube.com/watch?v=r1n6MHgP8r4" rel="nofollow">Youtube Trailer</a></li>
+							<li>Unfriended (2014) - <a href="https://en.wikipedia.org/wiki/Unfriended" rel="nofollow">Wikipedia</a> - <a href="http://www.imdb.com/title/tt3713166/" rel="nofollow">IMDB</a> - <a href="https://www.rottentomatoes.com/m/unfriended" rel="nofollow">RT 63%</a> - <a href="https://www.youtube.com/watch?v=Q72LWqCx3pc" rel="nofollow">Youtube Trailer</a></li>
+							<li>Upgrade (2018) - <a href="https://en.wikipedia.org/wiki/Upgrade_(film)" rel="nofollow">Wikipedia</a> - <a href="https://www.imdb.com/title/tt6499752/?ref_=nv_sr_1" rel="nofollow">IMDB</a></li>
+							<li>Vice (2015) - <a href="https://en.wikipedia.org/wiki/Vice_(2015_film)" rel="nofollow">Wikipedia</a> - <a href="http://www.imdb.com/title/tt3480796/" rel="nofollow">IMDB</a> - <a href="https://www.rottentomatoes.com/m/vice_2015" rel="nofollow">RT 4%</a> - <a href="https://www.youtube.com/watch?v=ETtLM0NI-Ug" rel="nofollow">Youtube Trailer</a></li>
+							<li>Virtuosity (1995) - <a href="https://en.wikipedia.org/wiki/Virtuosity" rel="nofollow">Wikipedia</a> - <a href="http://www.imdb.com/title/tt0114857/" rel="nofollow">IMDB</a> - <a href="https://www.rottentomatoes.com/m/virtuosity" rel="nofollow">RT 33%</a> - <a href="https://www.youtube.com/watch?v=KEDdaStz4kw" rel="nofollow">Youtube Trailer</a></li>
+							<li>Wax or the discovery of Television Among the Bees (1991) - <a href="https://en.wikipedia.org/wiki/Wax_or_the_Discovery_of_Television_Among_the_Bees" rel="nofollow">Wikipedia</a> - <a href="http://www.imdb.com/title/tt0105791" rel="nofollow">IMDB</a> - <a href="https://www.rottentomatoes.com/m/wax_or_the_discovery_of_television_among_the_bees" rel="nofollow">RT 83%</a> - <a href="https://www.youtube.com/watch?v=IDmZv1lPz3Y" rel="nofollow">Youtube Trailer</a> - <a href="https://www.youtube.com/watch?v=aDzl6SBCX0c" rel="nofollow">Youtube Full Movie</a></li>
+						</ul>
+						<br> </div>
+					<!-- X1 -->
+					<div class="project">
+						<div class="column-left">
+							<p class="date">Subgenres /</p>
+						</div>
+						<div class="column-right">
+							<p><strong>Vaporwave Aestethics</strong></p>
+						</div>
+					</div>
+					<div class="contentBody">
+						<div id="s44" class="cycle"> <img src="img/vaporwave_1.jpg" width="920" height="920" alt="Vaporwave [1]" /><img src="img/vaporwave_2.jpg" width="920" height="920" alt="Vaporwave [2]" /><img src="img/vaporwave_3.jpg" width="920" height="920" alt="Vaporwave [3]" /><img src="img/vaporwave.jpg" width="920" height="920" alt="Vaporwave [0]" /></div>
+						<p class="description"><span>Vaporwave</span>, like many other aesthetics, gives you nostalgia and has been described as a tongue-in-cheek commentary on modern consumerism and the soulless glamour of late capitalism. Like Cyberpunk, it shares a seeming disdain for mainstream capitalism, but Vaporwave is more sarcastic and mocking compared to Cyberpunk, which is more open with its disdain for the corporate dystopia</p>
+					</div>
+					<!-- Y1 -->
+					<div class="project">
+						<div class="column-left">
+							<p class="date">Experimental /</p>
+						</div>
+						<div class="column-right">
+							<p>Imagining the 90's</p>
+						</div>
+					</div>
+					<div class="contentBody">
+						<div id="s45" class="cycle"> <img src="img/tribute1.jpg" width="920" height="920" alt="tribute [1]" /><img src="img/tribute2.jpg" width="920" height="920" alt="tribute [2]" /><img src="img/tribute3.jpg" width="920" height="920" alt="tribute [3]" /><img src="img/tribute4.jpg" width="920" height="920" alt="tribute [4]" /><img src="img/tribute5.jpg" width="920" height="920" alt="tribute [5]" /><img src="img/tribute6.jpg" width="920" height="920" alt="tribute [6]" /><img src="img/tribute7.jpg" width="920" height="920" alt="tribute [7]" /> </div>
+						<p class="description">"To absent friends, lost loves, old gods, and the season of mists; and may each and every one of us always give the devil his due." - a book from my dad.</p>
+					</div>
+					<!-- X2 -->
+					<div class="project">
+						<div class="column-left">
+							<p class="date">Project /</p>
+						</div>
+						<div class="column-right">
+							<p><strong><span>Authorship, Design and Avatars:</span> The Literary in the Artificial Archive of My <s>Words</s> Works</strong></p>
+						</div>
+					</div>
+					<div class="contentBody">
+						<div id="s47" class="cycle"> <img src="img/ap1.jpg" width="920" height="518" alt="ap [1]" /><img src="img/ap2.jpg" width="920" height="518" alt="ap [2]" /> <img src="img/ap3.jpg" width="920" height="518" alt="ap [3]" /> <img src="img/ap4.jpg" width="920" height="518" alt="ap [4]" /> <img src="img/ap5.jpg" width="920" height="518" alt="ap [5]" /> <img src="img/ap6.jpg" width="920" height="518" alt="ap [6]" /> <img src="img/ap7.jpg" width="920" height="518" alt="ap [7]" /> <img src="img/ap8.jpg" width="920" height="518" alt="ap [8]" /> <img src="img/ap9.jpg" width="920" height="518" alt="ap [9]" /> <img src="img/ap10.jpg" width="920" height="518" alt="ap [10]" /> <img src="img/ap11.jpg" width="920" height="518" alt="ap [11]" /> <img src="img/ap12.jpg" width="920" height="518" alt="ap [12]" /> <img src="img/ap13.jpg" width="920" height="518" alt="ap [13]" /> <img src="img/ap14.jpg" width="920" height="518" alt="ap [14]" /> <img src="img/ap15.jpg" width="920" height="518" alt="ap [15]" /> <img src="img/ap16.jpg" width="920" height="518" alt="ap [16]" /> <img src="img/ap17.jpg" width="920" height="518" alt="ap [17]" /> <img src="img/ap18.jpg" width="920" height="518" alt="ap [18]" /> <img src="img/ap19.jpg" width="920" height="518" alt="ap [19]" /> <img src="img/ap20.jpg" width="920" height="518" alt="ap [20]" /> <img src="img/ap21.jpg" width="920" height="518" alt="ap [21]" /> <img src="img/ap22.jpg" width="920" height="518" alt="ap [22]" /> </div>
+						<p class="description">This is the project dad presented to the PhD programme. It's in need of fine tuning and i do hope he gets the necessary help to refine it before the end of the year. It would be amazing if he could get a scolarship and could be 100% dedicated do this academic pursuit. If not, i guess dad needs to focus on professional work because he's older now and he can't continue playing both sides.</p>
+					</div>
+					<!-- Y2 -->
+					<div class="project">
+						<div class="column-left">
+							<p class="date">Avatars /</p>
+						</div>
+						<div class="column-right">
+							<p>Shop Online!</p>
+						</div>
+					</div>
+					<div class="contentBody">
+						<div id="s48" class="cycle"> <img src="img/AVA_1.jpg" width="920" height="920" alt="AVA [1]" /> <img src="img/AVA_2.jpg" width="920" height="920" alt="AVA [2]" /> <img src="img/AVA_3.jpg" width="920" height="920" alt="AVA [3]" /> <img src="img/AVA_4.jpg" width="920" height="920" alt="AVA [4]" /> </div>
+						<p class="description">Well, even a you girl needs to go shopping. Please support me! I'm trying to create a Patreon account but my dad says it's too soon. The premise would be that if people support me, they can choose specifically ways in which i conduct my work! 20€ each artwork, printed in a 20x20 cm fine paper. Framing can be discussed.</p>
+					</div>
+					<!-- Z2 -->
+					<div class="project">
+						<div class="column-left">
+							<p class="date">Avatars /</p>
+						</div>
+						<div class="column-right">
+							<p><strong>Maria Sancho</strong></p>
+						</div>
+					</div>
+					<div class="contentBody">
+						<div id="s49" class="cycle"> <img src="img/maria1.jpg" width="920" height="920" alt="Maria [1]" /> <img src="img/maria2.jpg" width="920" height="920" alt="Maria [2]" /><img src="img/maria3.jpg" width="920" height="920" alt="Maria [3]" /> </div>
+						<p class="description">In the dawn of this age that begins for you, through the mist of your doubts and misunderstandings, she has returned, from the depths of her soul, the queen of the navigator's race.</p>
+					</div>
+					<!-- X3 -->
+					<div class="project">
+						<div class="column-left">
+							<p class="date">Avatars / </p>
+						</div>
+						<div class="column-right">
+							<p>Peter Paxx</p>
+						</div>
+					</div>
+					<div class="contentBody">
+						<div id="s410" class="cycle"> <img src="img/cyberpunk_11.jpg" width="920" height="920" alt="Peter Paxx [11]" /> <img src="img/cyberpunk_12.jpg" width="920" height="920" alt="Peter Paxx [12]" /> <img src="img/cyberpunk_14.jpg" width="920" height="920" alt="Peter Paxx [13]" /> <img src="img/cyberpunk_16.jpg" width="920" height="920" alt="Peter Paxx [16]" /> <img src="img/cyberpunk_15.jpg" width="920" height="920" alt="Peter Paxx [15]" /><img src="img/cyberpunk_17.jpg" width="920" height="920" alt="Peter Paxx [17]" /><img src="img/cyberpunk_13.jpg" width="920" height="920" alt="Peter Paxx [13]" /> </div>
+						<p class="description"><span>Peter Paxx</span> was dad's first avatar. At least it started that way, a persona in the digital world, who transcended or descended from the virtual world into the physical reality. Peter Paxx was a musician, sky instructor and an artist. As difficult as it is digging into our own past, i still selected and share with you some of his work. The majority is inacessible to me, has for i undestand there is something called The Amazing Obsolete Flash and.. well, it's also my dad's external harddrives. These works i found on his computer. If i understood correctly, Peter Paxx is currently away, crossing this world of wonders since 2014, when I was born.</p>
+					</div>
+					<!-- Y3 -->
+					<div class="project">
+						<div class="column-left">
+							<p class="date">Project /</p>
+						</div>
+						<div class="column-right">
+							<p><strong>Communication Wars 3.0</strong></p>
+						</div>
+					</div>
+					<div class="contentBody">
+						<div id="s411" class="cycle"> <img src="img/wars_0.jpg" width="920" height="500" alt="Wars [0]" /> <img src="img/wars_1.jpg" width="920" height="500" alt="wars [1]" /><img src="img/wars_2.jpg" width="920" height="500" alt="wars [2]" /> <img src="img/wars_3.jpg" width="920" height="500" alt="wars [3]" /> <img src="img/wars_4.jpg" width="920" height="500" alt="wars [4]" /> <img src="img/wars_5.jpg" width="920" height="500" alt="wars [5]" /> </div>
+						<p class="description"><span>Communication Wars</span> in it's essence aimed to be a research in media and arts, taking beginning in the excessive communication and consequent system overload from the point-of-view of autorship in visual creativity. Watching from today's perspective, there wasn't big changes in the way we live today and at that time in particularly. A time in which communication was presented as a value as supreme as it is innocuous in its illocutionary and performative consequences. Communication Wars are enunciated then as a pre- or even post-apocalyptic way of living in a world suffocated by the formal structures of instituted power, but also by individual egos. Due to my dad's extensive practice as a producer of visual imaginaries, both as a graphic designer and as a visual artist, he presented himself in this project not only as a collector of available information, but also, and in particular, as the starting point for the questioning itself. </p>
+					</div>
+					<!-- Z3 -->
+					<div class="project">
+						<div class="column-left">
+							<p class="date">Videogames /</p>
+						</div>
+						<div class="column-right">
+							<p>M / E / T / A / L ... G / E / A / R ... S / O / L / I / D</p>
+						</div>
+					</div>
+					<div class="contentBody">
+						<div id="s412" class="cycle"> <img src="img/metalgearsolid.jpg" width="920" height="1299" alt="MetalGearSolid [1]" /> </div>
+						<p class="description"><span>Metal Gear </span>is a series of action-adventure video games created by Hideo Kojima and developed and published by Konami. It deals with genetics and the moral implications of genetic engineering; how identity can be affected by the philosophies of one's society and the effects of censorship. It also deals with how the time and place one lives in (a "scene") affects their identity, how politics change along with the times and hyperreality, the inability to distinguish fact and fiction in an information saturated world. Dad played all of them and he really digs it's creator, who then went to create the apocalyptic Death Stranding videogame. </p>
+					</div>
+					<!-- PUM! -->
+					<div class="project">
+						<div class="column-left">
+							<p class="date">Videogames / </p>
+						</div>
+						<div class="column-right">
+							<p><strong>Overwatch (2016)</strong></p>
+						</div>
+					</div>
+					<div class="contentBody">
+						<div id="s413" class="cycle">
+							<iframe width="920" height="500" src="https://www.youtube.com/embed/IBIwGKDwnWY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+						</div>
+						<br>
+						<p> <span>Overwatch</span> is an online team-based game generally played as a <u>first-person shooter</u>. The game features several different game modes, principally designed around squad-based combat with two opposing teams of six players each. <span>Players</span> select one of 32 pre-made hero characters from one of three class types: <strong>Damage</strong> heroes that deal most of the damage to attack or defend control points, <strong>Tank</strong> heroes that can absorb a large amount of damage, and <strong>Support</strong> heroes that provide healing or other buffs for their teammates.
+							<br>
+							<br>Each hero has a unique skill kit, defining their intrinsic attributes like health points and running speed, their primary attacks, several active and passive skills, and an ultimate ability that can only be used after it has been charged through dealing damage to enemies and healing allies. <span>Players</span> can change their hero during the course of a match, as a goal of Overwatch's design was to encourage dynamic team compositions that adapt to the situation.
+							<br>
+							<br><span>Overwatch</span> is set sixty years into the future of a fictionalized Earth, thirty years after the resolution of what is known as the "Omnic Crisis." Before the Omnic Crisis, humanity had been in a golden age of prosperity and technology development. Humans developed robots with artificial intelligence called "Omnics", which were put to use to achieve economic equality, and began to be treated as people in their own right.
+							<br>
+							<br>The Omnic Crisis began when the worldwide automated "omnium" facilities that produced them started producing a series of lethal, hostile robots that attacked humankind. Initially, individual countries responded with various programs which eventually failed to ward off the Omnics. The United Nations quickly formed <span>Overwatch</span>, an international task force combining these individual programs to combat this threat and restore order.
+							<br>
+							<br>Curious enough, transmedia storytelling plays a major role in <span>Overwatch</span>. The backstory of the game and it's characters are described through animated shorts and webcomics. Heroes come from a variety of national/ethnic backgrounds, and occasionally speak in their native languages during matches. I've linked two or three videos of the backstory. There is a chronological order to view them as many things have happened from the beginning until now. Still, here they are in their full glory. Watch them. You'll love it.
+							<br>
+							<br> I could say many things about this game as it's very inspiring to me, breaking away from the classic noir, dark and gritty future dystopia, even if it's set in one. As a bonus, i've uploaded a video of my dad playing.
+							<br>
+							<br>
+							<div id="s413" class="cycle">
+								<iframe width="920" height="500" src="https://www.youtube.com/embed/FqnKB22pOC0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+							</div>
+							<br>
+							<div id="s413" class="cycle">
+								<iframe width="920" height="500" src="https://www.youtube.com/embed/oJ09xdxzIJQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+							</div>
+							<div id="s413" class="cycle">
+								<iframe width="920" height="500" src="https://www.youtube.com/embed/sQfk5HykiEk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+							</div>
+							<div id="s413" class="cycle">
+								<iframe width="920" height="500" src="https://www.youtube.com/embed/GKXS_YA9s7E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+							</div>
+							<br><strong>Gameplay:</strong>
+							<div>
+								<br>
+								<video width="920" height="500" controls>
+									<source src="img/POTG1.mp4" type="video/mp4"> </video>
+							</div>
+							<br> </div>
+					</p>
+					<br>
+					<!-- FIM X -->
+				</div>
+			</div>
+			<!-- SOBRE LAM -->
+			<div class="header-about">
+				<div class="line-thick"></div>
+				<h2><strong>What is this all about?</strong></h2>
+				<div class="line-thin"></div>
+			</div>
+			<div class="contentBody-about">
+				<div class="column-left-contact"> <a class="email" href="mailto:uc2020243313@student.uc.pt">EN / PT</a>
+					<p class="phone"><i>Portuguese version<br>coming soon!</i></p>
+				</div>
+				<div class="column-right">
+					<p class="about">My dad wanted to create avatars of his colleagues from the PhD program. He would use a generative and data-driven algorithm focused on a noted behavior and pattern. With this artifact it would become an ongoing narrative already started in the beginning of the semester, he said. At the end of each year he would change the parameters and new images would be revealed. By the end of the phd program he would have content enough to make several exhibitions and publish a book. I told him not to, he still insisted <i>blah, blah, blah,</i> new visuals, digital archives and whatsoever. I raised my <strong>Occupy Web Street</strong> flag and that was the end of it.
+						<br>
+						<br> Now, this website acts on three levels. <u>First</u>, as an homage to a fictional lawless subculture in an oppressive society dominated by computer technology and big corporations. <u>Secondly</u>, it acts as a showcase of the artwork made by him and edited by me. <u>Thirdly</u>, although the setup scenario is cyberpunk-based, and that's the main focus, we also explore aestethics on posthumanism and all the 'punk' of it. In addition, this website also operates as a digital archive with active links &#128516;
+						<br>
+						<br>I will continue to update this website and i'll post here and there when the project reach it's end. ... Thank you for your understanding and patience while I strive to improve your navigation. </p>
+				</div>
+			</div>
+			<!-- FIM LAM -->
+			<!-- CARTAZ -->
+			<div class="header-pdf">
+				<div class="line-thick"></div> <a class="pdf" href="img/free.pdf"><strong>Bonus Content!</strong></a>
+				<div class="line-thin"></div>
+			</div>
+			<!-- FIM CARTAZ -->
+			<!-- INÍCIO DO FOOTER -->
+			<div id="footer">
+				<p>Materialities of Literature, PhD Program © University of Coimbra, 2021 (beta version)</p>
+			</div>
+			<!-- FIM DO FOOTER -->
+		</div>
+		<!-- FIM CONTEÚDO -->
+	</div>
+	<!-- FIM WRAPPER -->
+	<!-- FIM!!!!!!!! -->
+</body>
+
+</html>
